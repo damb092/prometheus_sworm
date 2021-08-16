@@ -1,0 +1,7 @@
+- targets:
+  - '82.148.20.33:9182'
+  labels:
+    project: 'SQL'
+
+
+

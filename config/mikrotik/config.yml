@@ -1,0 +1,23 @@
+devices:
+  - name: Server_VPN
+    address: 192.168.5.1
+    user: prometheus 
+    password: g23KvZeE
+  - name: Adelia_Kut_MF/MTS
+    address: 192.168.16.10
+    user: prometheus
+    password: g23KvZeE
+
+features:
+  conntrack: true
+  dhcp: true
+  dhcpl: true
+  wlansta: true
+  wlanif: true
+  ipsec: true
+  lte: true
+  netwatch: true
+  poe: true
+  monitor: true
+  health: true  
+  devices: true

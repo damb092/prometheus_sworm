@@ -1,0 +1,38 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+{
+  "manifestVersion": "2.0.0",
+  "signatureType": "commercial",
+  "signedByOrg": "anodot",
+  "signedByOrgName": "Anodot",
+  "plugin": "anodot-panel",
+  "version": "1.0.4",
+  "time": 1627921325291,
+  "keyId": "7e4d0c6a708866e7",
+  "files": {
+    "index.html": "2fa2c4168c5bb7b8502989f437e4a1a71e663702b0ec9c01530215c8c026dcaf",
+    "LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "CHANGELOG.md": "f039df40cb9e6dffcd8eb814227ba03e47f686d447bfb45e5eae8bdf83fa9465",
+    "module.js.LICENSE.txt": "0d8f66cd4afb566cb5b7e1540c68f43b939d3eba12ace290f18abc4f4cb53ed0",
+    "module.js.map": "f8eb421d490a18d9c16cf2107151b12360eb438d98fe4691cf8b6d0b28846cb2",
+    "plugin.json": "6afc333369eae1a36483a2386470466e8df552ca86d096042daa6f709cb10a19",
+    "README.md": "9d936cdfed37e6c13697876ca2cabf3cec9567d3e14c87741ca07fe2f09e1aa5",
+    "img/radar.svg": "77175a1b6efd103ddd6f2b009af8d63ea7ba807218bbb8c715dbf639313cd07d",
+    "img/screenshot.png": "df47dc17f5ff887cd6526f1f5ba36732fd9d4f2123e31f5592e5d089f931e5cf",
+    "img/timeline.svg": "3fcddfdd438eca4943ca66d8b8f36dd0bb0306ae07632141fee44ecf404e4f0f",
+    "img/logo.svg": "1d94d8521ba9c832f1ed7551b3718b38178b3e641167bb6caea9f5559853e313",
+    "module.js": "677d2540a0b85ff651d3dbe449845f117b5d66c4ad42c20287d1ac4c2fab851b"
+  }
+}
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v4.10.1
+Comment: https://openpgpjs.org
+
+wqEEARMKAAYFAmEIG60ACgkQfk0ManCIZudezQIIhfBHZmygwU+F8JKTsmik
+fdLV7Zn4S/DHHQx/XDnZEO/Myr1E4YMATaGuO39klG3gjsKniBb3OgJdWNsD
+e339ZFgCCQEgaGyDiwuPGVicvdD/0+FJ5CMPFph6U+OFEm/+aUxYzsEBxnyX
+QOJdqqCDglR0HF4gRT0XcbfiNbzLeGl2WnMUjA==
+=b8Es
+-----END PGP SIGNATURE-----
