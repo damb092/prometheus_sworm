@@ -67,11 +67,10 @@ scrape_configs:
     - files:
       - ./sd_files/*_blackbox_icmp_exporter.yml
       refresh_interval: 1m
-     relabel_configs:
+    relabel_configs:
       - source_labels: [__address__]
         target_label: __param_target
       - source_labels: [__param_target]
         target_label: instance
       - target_label: __address__
-        replacement: 'tasks.blackbox-exporter'
-        port: 9115
+        replacement: 'ip-172-31-23-211.us-east-2.compute.internal:9115'
