@@ -38,3 +38,22 @@
     tls off
 }
 
+:9115 {
+    basicauth / {$ADMIN_USER} {$ADMIN_PASSWORD}
+    proxy / blackbox-icmp:9115 {
+            transparent
+        }
+
+    errors stderr
+    tls off
+}
+
+:9436 {
+    basicauth / {$ADMIN_USER} {$ADMIN_PASSWORD}
+    proxy / mikrotik-exporter:9090 {
+            transparent
+        }
+
+    errors stderr
+    tls off
+}
