@@ -73,4 +73,4 @@ scrape_configs:
       - source_labels: [__param_target]
         target_label: instance
       - target_label: __address__
-        replacement: 'ip-172-31-23-211.us-east-2.compute.internal:9115'
+        replacement: 'mon_blackbox-icmp:9115'
