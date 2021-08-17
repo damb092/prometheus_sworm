@@ -215,6 +215,7 @@ services:
       - "9436:9436"
     networks:
       - net
+        ipv4_address: 
     environment:
       - ADMIN_USER=${ADMIN_USER:-admin}
       - ADMIN_PASSWORD=${ADMIN_PASSWORD:-admin}
