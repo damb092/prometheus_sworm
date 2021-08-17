@@ -65,7 +65,7 @@ scrape_configs:
       module: [icmp]
     file_sd_configs:
     - files:
-      - ./sd_files/*_blackbox_icmp_exporter.yml
+      - ./sd_files/*_blackbox_icmp_exporter
       refresh_interval: 1m
     relabel_configs:
       - source_labels: [__address__]
