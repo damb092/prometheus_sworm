@@ -193,9 +193,7 @@ services:
   blackbox-icmp:
     image: prom/blackbox-exporter
     volumes:
-      - '/home/ubuntu/swarmprom/config/blackbox_icmp/:/etc/blackbox_exporter'
-    ports:
-      - "9115:9115"
+      - './config/blackbox_icmp/:/etc/blackbox_exporter'
     networks:
       - net
     deploy:
@@ -213,6 +211,7 @@ services:
 #      - "9093:9093"
       - "9094:9094"
       - "9436:9436"
+      - "9115:9115"
     networks:
       - net
     environment:
