@@ -1,2 +1,7 @@
 - targets:
   - localhost
+  - Adelia_Kut_MF_MTS
+  - Adelia_Kut_MF_kamera_osn
+  - Adelia_Kut_MTS_kamera_kass
+  - Adelia_Kut_MF_kamera_kass
+  - Adelia_Kut_MTS_kamera_osn
