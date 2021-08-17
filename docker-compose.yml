@@ -59,7 +59,7 @@ services:
           memory: 64M
 
   grafana:
-    image: grafana_test
+    image: damb092/grafana:test
     networks:
       - net
     environment:
@@ -148,7 +148,7 @@ services:
           memory: 64M
 
   prometheus:
-    image: prometheus-new
+    image: damb092/prometheus:test
     networks:
       - net
     command:
