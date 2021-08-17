@@ -59,7 +59,7 @@ scrape_configs:
       type: 'A'
       port: 9436
 
-  - jobe_name: 'blackbox-icmp'
+  - job_name: 'blackbox-icmp'
     metrics_path: /probe
     params:
       module: [icmp]
