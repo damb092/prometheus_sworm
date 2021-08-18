@@ -67,6 +67,7 @@ scrape_configs:
     metrics_path: /probe
     params:
       module: [icmp-general]
+    file_sd_configs:
     - files:
       - ./sd_files/*_blackbox_icmp_exporter.yml
       refresh_interval: 1m
