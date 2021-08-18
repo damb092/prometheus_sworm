@@ -194,6 +194,8 @@ services:
     image: prom/blackbox-exporter
     volumes:
       - './config/blackbox_icmp/:/etc/blackbox_exporter'
+    command:
+      - '--config.file=/config/blackbox.yml'
     networks:
       - net
     deploy:

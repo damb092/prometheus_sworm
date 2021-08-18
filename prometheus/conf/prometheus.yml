@@ -58,15 +58,19 @@ scrape_configs:
       - 'tasks.mikrotik-exporter'
       type: 'A'
       port: 9436
+  
+  - job_name: blackbox
+    static_configs:
+    - targets: ['mon_blackbox-icmp:9115']
 
   - job_name: 'blackbox-icmp'
     metrics_path: /probe
     params:
-      module: [icmp]
-    file_sd_configs:
-    - files:
-      - ./sd_files/*_blackbox_icmp_exporter.yml
-      refresh_interval: 1m
+      module: [icmp-general]
+    static_configs:
+      - targets:
+        - localhost
+        - 127.0.0.1
     relabel_configs:
       - source_labels: [__address__]
         target_label: __param_target
