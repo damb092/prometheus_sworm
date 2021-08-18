@@ -1,23 +1,24 @@
 - targets:
-  - localhost
+  - 'localhost'
   lables:
     hostname: 'localhost'
   
-  - 192.168.16.10
+  - '192.168.16.10'
   lables:
     hostname: 'Adelia_Kut_MF_MTS'
   
-  - 10.16.10.10
+  - '10.16.10.10'
   lables:
     hostname: 'Adelia_Kut_MF_kamera_osn'
 
-  - 10.16.10.11
+  - '10.16.10.11'
   lables:
     hostname: 'Adelia_Kut_MTS_kamera_kass'
 
-  - 10.16.10.12
+  - '10.16.10.12'
   lables:
     hostname: 'Adelia_Kut_MF_kamera_kass'
-  - 10.16.10.13
+
+  - '10.16.10.13'
   lables:
     hostname: 'Adelia_Kut_MTS_kamera_osn'
