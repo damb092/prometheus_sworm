@@ -22,22 +22,22 @@ configs:
     file: ./prometheus/rules/swarm_task.rules.yml
 
 services:
-  dockerd-exporter:
-    image: stefanprodan/caddy
-    networks:
-      - net
-    environment:
-      - DOCKER_GWBRIDGE_IP=172.21.0.1
-    configs:
-      - source: dockerd_config
-        target: /etc/caddy/Caddyfile
-    deploy:
-      mode: global
-      resources:
-        limits:
-          memory: 128M
-        reservations:
-          memory: 64M
+#  dockerd-exporter:
+#    image: stefanprodan/caddy
+#    networks:
+#      - net
+#    environment:
+#      - DOCKER_GWBRIDGE_IP=172.21.0.1
+#    configs:
+#      - source: dockerd_config
+#        target: /etc/caddy/Caddyfile
+#    deploy:
+#      mode: global
+#      resources:
+#        limits:
+#          memory: 128M
+#        reservations:
+#          memory: 64M
 
   cadvisor:
     image: google/cadvisor
@@ -181,6 +181,8 @@ services:
       - './config/mikrotik:/config'
     environment:
       - CONFIG_FILE=/config/config.yml
+      - MIKROTIK_USER=prometheus
+      - MIKROTIK_PASSWORD=g23KvZeE
     networks:
       - net
     deploy:
