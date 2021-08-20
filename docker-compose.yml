@@ -181,8 +181,8 @@ services:
       - './config/mikrotik:/config'
     environment:
       - CONFIG_FILE=/config/config.yml
-      - MIKROTIK_USER=prometheus
-      - MIKROTIK_PASSWORD=g23KvZeE
+      - USER=prometheus
+      - PASSWORD=g23KvZeE
     networks:
       - net
     deploy:

@@ -50,7 +50,7 @@
 
 :9436 {
     basicauth / {$ADMIN_USER} {$ADMIN_PASSWORD}
-    proxy / mikrotik-exporter:9090 {
+    proxy / mikrotik-exporter:9436 {
             transparent
         }
 

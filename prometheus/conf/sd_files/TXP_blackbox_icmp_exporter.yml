@@ -1,24 +1,7 @@
 - targets:
-  - 'localhost'
-  labels:
-    hostname: 'localhost'
-  
-  - '192.168.16.10'
-  labels:
-    hostname: 'Adelia_Kut_MF_MTS'
-  
-  - '10.16.10.10'
-  labels:
-    hostname: 'Adelia_Kut_MF_kamera_osn'
-
-  - '10.16.10.11'
-  labels:
-    hostname: 'Adelia_Kut_MTS_kamera_kass'
-
-  - '10.16.10.12'
-  labels:
-    hostname: 'Adelia_Kut_MF_kamera_kass'
-
-  - '10.16.10.13'
-  labels:
-    hostname: 'Adelia_Kut_MTS_kamera_osn'
+  - localhost
+  - 192.168.16.10
+  - 10.16.10.10
+  - 10.16.10.11
+  - 10.16.10.12
+  - 10.16.10.13
