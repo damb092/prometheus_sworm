@@ -181,8 +181,8 @@ services:
       - './config/mikrotik:/config'
     environment:
       - CONFIG_FILE=/config/config.yml
-      - USER=prometheus
-      - PASSWORD=g23KvZeE
+      - MIKROTIK_USER=prometheus
+      - MIKROTIK_PASSWORD=changeme
     networks:
       - net
     deploy:
@@ -196,6 +196,17 @@ services:
     image: prom/blackbox-exporter
     volumes:
       - './config/blackbox_icmp/:/etc/blackbox_exporter'
+    networks:
+      - net
+    deploy:
+      mode: replicated
+      replicas: 1
+      placement:
+        constraints:
+          - node.role == manager
+
+  snmp-exporter:
+    image: prom/snmp-exporter
     networks:
       - net
     deploy:

@@ -1,316 +1,316 @@
 devices:
   - name: Server_VPN
     address: 192.168.5.1
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Adelia_Kut_MF/MTS
     address: 192.168.16.10
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Adelia_Kut_T2
     address: 10.16.11.1
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Kukmor_T2
     address: 192.168.16.12
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Vasilevo_MF/T2
     address: 192.168.16.13
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Dementeva_T2
     address: 192.168.14.14
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Dzalil_T2_CHE
     address: 192.168.16.15
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Gudovancevo_T2
     address: 192.168.16.16
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Zalesny_T2
     address: 192.168.16.17
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Zelenodolsk_MF/T2
     address: 192.168.16.18
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Zorge_75_T2/MTS
     address: 192.168.16.19
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Zorge_93_T2
     address: 192.168.16.20
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Kolco_T2
     address: 192.168.16.22
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Bavly
     address: 192.168.16.23
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Leningradskaya_MF
     address: 192.168.16.25
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Lomzhinskaya_MF/T2
     address: 192.168.16.26
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Mavlutova_T2
     address: 192.168.16.27
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Megga_Mebel_MTS
     address: 192.168.16.28
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Menzelinsk_T2_CHE
     address: 192.168.16.29
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Yamasheva_71_MTS
     address: 192.168.16.30
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: TC_Sitimoll_T2_CHE
     address: 192.168.16.31
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: TC_Kazan_Moll_T2
     address: 192.168.16.32
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Osinovo_Bil/MF/MTS
     address: 192.168.16.33
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Osinovo_T2
     address: 192.168.16.34
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Politra_T2_CHE
     address: 192.168.16.35
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Park_House_T2_Modul
     address: 192.168.16.36
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Park_House_T2_Salon
     address: 192.168.16.37
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: KZN_Derbishki
     address: 192.168.16.38
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Roddom_MF/T2
     address: 192.168.16.39
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: TC_Chelni_Hleb_MTS
     address: 192.168.16.40
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Tandem_T2
     address: 192.168.16.41
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: TC_Kvartal_T2_CHE
     address: 192.168.16.42
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Urussy_MTS/MF
     address: 192.168.16.43
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: KZN_Derbishki_MF
     address: 192.168.16.44
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Fuchika_64_T2
     address: 192.168.16.45
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Energetik_T2_CHE
     address: 192.168.16.46
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Udino_MF_MTS
     address: 192.168.16.47
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Yagodnaya_MF
     address: 192.168.16.49
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Yamashevo_MF/T2
     address: 192.168.16.50
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: ZUM_T2
     address: 192.168.16.53
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: TC_MOKI_MTS_MF
     address: 192.168.15.54
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Arsk_T2
     address: 192.168.16.56
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: TC_Omega_CHE
     address: 192.168.16.57
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: TC_MOKI_T2
     address: 192.168.16.59
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Zorge_66_T2
     address: 192.168.16.60
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Visokaya_gora_MTS
     address: 192.168.16.61
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: KRV_office
     address: 192.168.43.2
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: JemMol_T2_Kir
     address: 192.168.43.10
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: TC_Leto_T2_Kir
     address: 192.168.43.11
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: TC_Maximum_T2_Kir
     address: 192.168.43.12
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: PR_Oktabr_16_Kir
     address: 192.168.43.13
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Lepse_T2_kir
     address: 192.168.43.14
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Upita_T2_Kir
     address: 192.168.43.15
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Kirovo_Chepetsk_60_let
     address: 192.168.43.16
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Kirovo_Chepetsk_Mira_74
     address: 192.168.43.17
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Vorovskogo_77_KIR
     address: 192.168.43.18
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Shorsa_95_T2_Kir
     address: 192.168.43.19
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: TC_Rossia_Kir
     address: 192.168.43.20
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Viat_Pol_Gagarina_11_T2
     address: 192.168.43.21
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: JemMol_Xiaomi_kir
     address: 192.168.43.22
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: KRV_Luganskaia_53_T2_TC_Maxi
     address: 192.168.43.23
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: JemMol_Xiaomi_kir_Sklad
     address: 192.168.43.24
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: Office_Perm
     address: 192.168.59.2
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: PRM_Krisanova_19_T2
     address: 192.168.59.10
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: PRM_Popova_61
     address: 192.168.59.11
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: PRM_Kosmonavtov_256
     address: 192.168.59.12
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: PRM_Vetluzhskaia
     address: 192.168.59.13
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: PRM_Ushakova
     address: 192.168.59.14
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: PRM_PR_Parkovi
     address: 192.168.59.15
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: PRM_Chaikovski_Marksa_T2
     address: 192.168.59.16
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: PRM_Berez_Piatiletki_87
     address: 192.168.59.17
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: PRM_Berez_Piatiletki_41_TC_CUM
     address: 192.168.59.18
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: PRM_Berezn_Ubileinaia_28
     address: 192.168.59.19
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: PRM_Berezn_Mira_82_Semia
     address: 192.168.59.20
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: PRM_Solik_Sevrnaia_48_TC_Bismark_Avenu
     address: 192.168.59.21
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: PRM_Solik_Lenina_36b_TC_Bismark_Plaza
     address: 192.168.59.22
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: PRM_Solik_Pobedy_117_TC_CUM
     address: 192.168.59.23
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
   - name: PRM_Chaikovski_Marksa_XIAOMI
     address: 192.168.59.25
-    user: prometheus
-    password: g23KvZeE
+    user: ${MIKROTIK_USER}
+    password: ${MIKROTIK_PASSWORD}
 
 features:
   conntrack: true
