@@ -8,6 +8,12 @@
         "hide": true,
         "iconColor": "rgba(0, 211, 255, 1)",
         "name": "Annotations & Alerts",
+        "target": {
+          "limit": 100,
+          "matchAny": false,
+          "tags": [],
+          "type": "dashboard"
+        },
         "type": "dashboard"
       }
     ]
@@ -16,8 +22,7 @@
   "editable": true,
   "gnetId": 10467,
   "graphTooltip": 1,
-  "id": 9,
-  "iteration": 1629203035775,
+  "iteration": 1629736114488,
   "links": [
     {
       "icon": "bolt",
@@ -499,7 +504,7 @@
       },
       "paceLength": 10,
       "percentage": false,
-      "pluginVersion": "8.0.6",
+      "pluginVersion": "8.1.0",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -610,7 +615,7 @@
         "alertThreshold": true
       },
       "percentage": false,
-      "pluginVersion": "8.0.6",
+      "pluginVersion": "8.1.0",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -720,7 +725,7 @@
         "alertThreshold": true
       },
       "percentage": false,
-      "pluginVersion": "8.0.6",
+      "pluginVersion": "8.1.0",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -875,7 +880,7 @@
         "alertThreshold": true
       },
       "percentage": false,
-      "pluginVersion": "8.0.6",
+      "pluginVersion": "8.1.0",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -1029,7 +1034,7 @@
       },
       "paceLength": 10,
       "percentage": false,
-      "pluginVersion": "8.0.6",
+      "pluginVersion": "8.1.0",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -1175,7 +1180,7 @@
         "showThresholdMarkers": true,
         "text": {}
       },
-      "pluginVersion": "8.0.6",
+      "pluginVersion": "8.1.0",
       "targets": [
         {
           "expr": "100 - (avg(irate(windows_cpu_time_total{job=~\"$job\",instance=~\"$instance\",mode=\"idle\"}[2m])))*100",
@@ -1242,7 +1247,7 @@
         "showUnfilled": true,
         "text": {}
       },
-      "pluginVersion": "8.0.6",
+      "pluginVersion": "8.1.0",
       "targets": [
         {
           "expr": "100 - (windows_logical_disk_free_bytes{job=~\"$job\",instance=~\"$instance\"} / windows_logical_disk_size_bytes{job=~\"$job\",instance=~\"$instance\"})*100",
@@ -1303,7 +1308,7 @@
         "alertThreshold": true
       },
       "percentage": false,
-      "pluginVersion": "8.0.6",
+      "pluginVersion": "8.1.0",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -1424,7 +1429,7 @@
         "alertThreshold": true
       },
       "percentage": false,
-      "pluginVersion": "8.0.6",
+      "pluginVersion": "8.1.0",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -1586,7 +1591,7 @@
       },
       "paceLength": 10,
       "percentage": false,
-      "pluginVersion": "8.0.6",
+      "pluginVersion": "8.1.0",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -1698,7 +1703,7 @@
         "alertThreshold": true
       },
       "percentage": false,
-      "pluginVersion": "8.0.6",
+      "pluginVersion": "8.1.0",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -1891,7 +1896,7 @@
         "alertThreshold": true
       },
       "percentage": false,
-      "pluginVersion": "8.0.6",
+      "pluginVersion": "8.1.0",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -2042,7 +2047,7 @@
         "alertThreshold": true
       },
       "percentage": false,
-      "pluginVersion": "8.0.6",
+      "pluginVersion": "8.1.0",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -2197,7 +2202,7 @@
         "alertThreshold": true
       },
       "percentage": false,
-      "pluginVersion": "8.0.6",
+      "pluginVersion": "8.1.0",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -2348,7 +2353,7 @@
       },
       "paceLength": 10,
       "percentage": false,
-      "pluginVersion": "8.0.6",
+      "pluginVersion": "8.1.0",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -2418,35 +2423,15 @@
     "list": [
       {
         "allValue": null,
-        "current": {},
+        "current": {
+          "selected": false,
+          "text": "windows_exporter",
+          "value": "windows_exporter"
+        },
         "datasource": "Prometheus",
         "definition": "label_values(windows_cs_hostname, job)",
         "description": null,
-        "error": {
-          "config": {
-            "data": {
-              "end": "1629203036",
-              "match[]": "windows_cs_hostname",
-              "start": "1629192236"
-            },
-            "headers": {
-              "Content-Type": "application/x-www-form-urlencoded",
-              "X-Grafana-Org-Id": 1
-            },
-            "hideFromInspector": true,
-            "method": "POST",
-            "retry": 0,
-            "url": "api/datasources/proxy/36/api/v1/series"
-          },
-          "data": {
-            "error": "Bad Gateway",
-            "message": "Bad Gateway",
-            "response": ""
-          },
-          "message": "Bad Gateway",
-          "status": 502,
-          "statusText": "Bad Gateway"
-        },
+        "error": null,
         "hide": 0,
         "includeAll": false,
         "label": "JOB",
@@ -2468,38 +2453,18 @@
       },
       {
         "allValue": null,
-        "current": {},
+        "current": {
+          "selected": false,
+          "text": "All",
+          "value": "$__all"
+        },
         "datasource": "Prometheus",
         "definition": "label_values(windows_cs_hostname{job=~\"$job\"}, hostname)",
         "description": null,
-        "error": {
-          "config": {
-            "data": {
-              "end": "1629203036",
-              "match[]": "windows_cs_hostname{job=~\"\"}",
-              "start": "1629192236"
-            },
-            "headers": {
-              "Content-Type": "application/x-www-form-urlencoded",
-              "X-Grafana-Org-Id": 1
-            },
-            "hideFromInspector": true,
-            "method": "POST",
-            "retry": 0,
-            "url": "api/datasources/proxy/36/api/v1/series"
-          },
-          "data": {
-            "error": "Bad Gateway",
-            "message": "Bad Gateway",
-            "response": ""
-          },
-          "message": "Bad Gateway",
-          "status": 502,
-          "statusText": "Bad Gateway"
-        },
+        "error": null,
         "hide": 0,
         "includeAll": true,
-        "label": "主机名",
+        "label": "hostname",
         "multi": false,
         "name": "hostname",
         "options": [],
@@ -2518,35 +2483,15 @@
       },
       {
         "allValue": null,
-        "current": {},
+        "current": {
+          "selected": false,
+          "text": "82.148.20.33:9182",
+          "value": "82.148.20.33:9182"
+        },
         "datasource": "Prometheus",
         "definition": "label_values(windows_cs_hostname{job=~\"$job\",hostname=~\"$hostname\"}, instance)",
         "description": null,
-        "error": {
-          "config": {
-            "data": {
-              "end": "1629203036",
-              "match[]": "windows_cs_hostname{job=~\"\",hostname=~\"\"}",
-              "start": "1629192236"
-            },
-            "headers": {
-              "Content-Type": "application/x-www-form-urlencoded",
-              "X-Grafana-Org-Id": 1
-            },
-            "hideFromInspector": true,
-            "method": "POST",
-            "retry": 0,
-            "url": "api/datasources/proxy/36/api/v1/series"
-          },
-          "data": {
-            "error": "Bad Gateway",
-            "message": "Bad Gateway",
-            "response": ""
-          },
-          "message": "Bad Gateway",
-          "status": 502,
-          "statusText": "Bad Gateway"
-        },
+        "error": null,
         "hide": 0,
         "includeAll": false,
         "label": "instance",
@@ -2568,35 +2513,15 @@
       },
       {
         "allValue": null,
-        "current": {},
+        "current": {
+          "selected": false,
+          "text": "Landau",
+          "value": "Landau"
+        },
         "datasource": "Prometheus",
         "definition": "label_values(windows_cs_hostname{job=~\"$job\",instance=~\"$instance\"}, hostname)",
         "description": null,
-        "error": {
-          "config": {
-            "data": {
-              "end": "1629203036",
-              "match[]": "windows_cs_hostname{job=~\"\",instance=~\"\"}",
-              "start": "1629192236"
-            },
-            "headers": {
-              "Content-Type": "application/x-www-form-urlencoded",
-              "X-Grafana-Org-Id": 1
-            },
-            "hideFromInspector": true,
-            "method": "POST",
-            "retry": 0,
-            "url": "api/datasources/proxy/36/api/v1/series"
-          },
-          "data": {
-            "error": "Bad Gateway",
-            "message": "Bad Gateway",
-            "response": ""
-          },
-          "message": "Bad Gateway",
-          "status": 502,
-          "statusText": "Bad Gateway"
-        },
+        "error": null,
         "hide": 2,
         "includeAll": false,
         "label": "展示使用的主机名",
@@ -2649,5 +2574,5 @@
   "timezone": "",
   "title": "windows_exporter",
   "uid": "GB-HbFG7k",
-  "version": 4
+  "version": 187
 }

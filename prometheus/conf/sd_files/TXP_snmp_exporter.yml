@@ -1,0 +1,10 @@
+- targets: ['192.168.16.10']
+  labels:
+    group: 'routers'
+    name: 'Adelia_Kut_MF_MTS'
+    region: 'KZN'
+- targets: ['10.16.12.254']
+  labels:
+    group: 'hot-wifi'
+    name: 'Kukmor_T2'
+    region: 'KZN'
