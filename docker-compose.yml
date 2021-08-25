@@ -185,8 +185,6 @@ services:
       - './config/mikrotik:/config'
     environment:
       - CONFIG_FILE=/config/config.yml
-      - MIKROTIK_USER=prometheus
-      - MIKROTIK_PASSWORD=changeme
     networks:
       - net
     deploy:

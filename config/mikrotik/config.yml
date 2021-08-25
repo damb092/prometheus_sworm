@@ -1,316 +1,316 @@
 devices:
   - name: Server_VPN
     address: 192.168.5.1
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Adelia_Kut_MF/MTS
     address: 192.168.16.10
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Adelia_Kut_T2
     address: 10.16.11.1
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Kukmor_T2
     address: 192.168.16.12
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Vasilevo_MF/T2
     address: 192.168.16.13
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Dementeva_T2
     address: 192.168.14.14
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Dzalil_T2_CHE
     address: 192.168.16.15
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Gudovancevo_T2
     address: 192.168.16.16
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Zalesny_T2
     address: 192.168.16.17
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Zelenodolsk_MF/T2
     address: 192.168.16.18
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Zorge_75_T2/MTS
     address: 192.168.16.19
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Zorge_93_T2
     address: 192.168.16.20
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Kolco_T2
     address: 192.168.16.22
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Bavly
     address: 192.168.16.23
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Leningradskaya_MF
     address: 192.168.16.25
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Lomzhinskaya_MF/T2
     address: 192.168.16.26
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Mavlutova_T2
     address: 192.168.16.27
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Megga_Mebel_MTS
     address: 192.168.16.28
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Menzelinsk_T2_CHE
     address: 192.168.16.29
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Yamasheva_71_MTS
     address: 192.168.16.30
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: TC_Sitimoll_T2_CHE
     address: 192.168.16.31
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: TC_Kazan_Moll_T2
     address: 192.168.16.32
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Osinovo_Bil/MF/MTS
     address: 192.168.16.33
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Osinovo_T2
     address: 192.168.16.34
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Politra_T2_CHE
     address: 192.168.16.35
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Park_House_T2_Modul
     address: 192.168.16.36
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Park_House_T2_Salon
     address: 192.168.16.37
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: KZN_Derbishki
     address: 192.168.16.38
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Roddom_MF/T2
     address: 192.168.16.39
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: TC_Chelni_Hleb_MTS
     address: 192.168.16.40
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Tandem_T2
     address: 192.168.16.41
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: TC_Kvartal_T2_CHE
     address: 192.168.16.42
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Urussy_MTS/MF
     address: 192.168.16.43
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: KZN_Derbishki_MF
     address: 192.168.16.44
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Fuchika_64_T2
     address: 192.168.16.45
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Energetik_T2_CHE
     address: 192.168.16.46
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Udino_MF_MTS
     address: 192.168.16.47
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Yagodnaya_MF
     address: 192.168.16.49
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Yamashevo_MF/T2
     address: 192.168.16.50
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: ZUM_T2
     address: 192.168.16.53
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: TC_MOKI_MTS_MF
     address: 192.168.15.54
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Arsk_T2
     address: 192.168.16.56
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: TC_Omega_CHE
     address: 192.168.16.57
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: TC_MOKI_T2
     address: 192.168.16.59
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Zorge_66_T2
     address: 192.168.16.60
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Visokaya_gora_MTS
     address: 192.168.16.61
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: KRV_office
     address: 192.168.43.2
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: JemMol_T2_Kir
     address: 192.168.43.10
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: TC_Leto_T2_Kir
     address: 192.168.43.11
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: TC_Maximum_T2_Kir
     address: 192.168.43.12
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: PR_Oktabr_16_Kir
     address: 192.168.43.13
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Lepse_T2_kir
     address: 192.168.43.14
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Upita_T2_Kir
     address: 192.168.43.15
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Kirovo_Chepetsk_60_let
     address: 192.168.43.16
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Kirovo_Chepetsk_Mira_74
     address: 192.168.43.17
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Vorovskogo_77_KIR
     address: 192.168.43.18
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Shorsa_95_T2_Kir
     address: 192.168.43.19
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: TC_Rossia_Kir
     address: 192.168.43.20
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Viat_Pol_Gagarina_11_T2
     address: 192.168.43.21
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: JemMol_Xiaomi_kir
     address: 192.168.43.22
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: KRV_Luganskaia_53_T2_TC_Maxi
     address: 192.168.43.23
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: JemMol_Xiaomi_kir_Sklad
     address: 192.168.43.24
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: Office_Perm
     address: 192.168.59.2
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: PRM_Krisanova_19_T2
     address: 192.168.59.10
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: PRM_Popova_61
     address: 192.168.59.11
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: PRM_Kosmonavtov_256
     address: 192.168.59.12
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: PRM_Vetluzhskaia
     address: 192.168.59.13
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: PRM_Ushakova
     address: 192.168.59.14
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: PRM_PR_Parkovi
     address: 192.168.59.15
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: PRM_Chaikovski_Marksa_T2
     address: 192.168.59.16
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: PRM_Berez_Piatiletki_87
     address: 192.168.59.17
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: PRM_Berez_Piatiletki_41_TC_CUM
     address: 192.168.59.18
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: PRM_Berezn_Ubileinaia_28
     address: 192.168.59.19
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: PRM_Berezn_Mira_82_Semia
     address: 192.168.59.20
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: PRM_Solik_Sevrnaia_48_TC_Bismark_Avenu
     address: 192.168.59.21
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: PRM_Solik_Lenina_36b_TC_Bismark_Plaza
     address: 192.168.59.22
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: PRM_Solik_Pobedy_117_TC_CUM
     address: 192.168.59.23
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
   - name: PRM_Chaikovski_Marksa_XIAOMI
     address: 192.168.59.25
-    user: '${MIKROTIK_USER}'
-    password: '${MIKROTIK_PASSWORD}'
+    user: prometheus
+    password: changeme
 
 features:
   conntrack: true
