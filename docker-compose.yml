@@ -21,7 +21,7 @@ configs:
   task_rules:
     file: ./prometheus/rules/swarm_task.rules.yml
   blackbox_rules:
-    file: ./prometheus/rules/blackbox-icmp.yml  
+    file: ./prometheus/rules/blackbox-icmp.rules.yml  
 
 services:
 #  dockerd-exporter:
@@ -166,7 +166,7 @@ services:
       - source: task_rules
         target: /etc/prometheus/swarm_task.rules.yml
       - source: blackbox_rules
-        terget: /etc/prometheus/blackbox-icmp.yml
+        terget: /etc/prometheus/blackbox-icmp.rules.yml
     deploy:
       mode: replicated
       replicas: 1
@@ -186,7 +186,7 @@ services:
     environment:
       - CONFIG_FILE=/config/config.yml
       - MIKROTIK_USER=prometheus
-      - MIKROTIK_PASSWORD=g23KvZeE
+      - MIKROTIK_PASSWORD=changeme
     networks:
       - net
     deploy:
