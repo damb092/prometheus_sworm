@@ -8,6 +8,7 @@ global:
 rule_files:
   - "swarm_node.rules.yml"
   - "swarm_task.rules.yml"
+  - "blackbox-icmp.yml"
 
 alerting:
   alertmanagers:
@@ -61,15 +62,16 @@ scrape_configs:
   
   - job_name: blackbox
     static_configs:
-    - targets: ['mon_blackbox-icmp:9115']
+    - targets: ['mon_blackbox:9115']
 
   - job_name: 'blackbox-icmp'
     metrics_path: /probe
     params:
-      module: [icmp-general]
+      module: [icmp]
     file_sd_configs:
     - files:
       - ./sd_files/*_blackbox_icmp_exporter.yml
+      - ./sd_files/*_snmp_exporter.yml
       refresh_interval: 1m
     relabel_configs:
       - source_labels: [__address__]
@@ -77,7 +79,23 @@ scrape_configs:
       - source_labels: [__param_target]
         target_label: instance
       - target_label: __address__
-        replacement: mon_blackbox-icmp:9115
+        replacement: mon_blackbox:9115
+
+  - job_name: 'blackbox-http'
+    metrics_path: /probe
+    params:
+      module: [http_2xx]
+    file_sd_configs:
+    - files:
+      - ./sd_files/*_blackbox_http_exporter.yml
+      refresh_interval: 1m
+    relabel_configs:
+      - source_labels: [__address__]
+        target_label: __param_target
+      - source_labels: [__param_target]
+        target_label: instance
+      - target_label: __address__
+        replacement: mon_blackbox:9115
   
   - job_name: snmp
     static_configs:

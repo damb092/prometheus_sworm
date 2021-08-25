@@ -196,10 +196,10 @@ services:
         constraints:
           - node.role == manager
 
-  blackbox-icmp:
+  blackbox:
     image: prom/blackbox-exporter
     volumes:
-      - './config/blackbox_icmp/:/etc/blackbox_exporter'
+      - './config/blackbox/:/etc/blackbox_exporter'
     networks:
       - net
     deploy:
