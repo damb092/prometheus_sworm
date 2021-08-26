@@ -1188,15 +1188,10 @@
     group: 'kas_kam'
     name: 'JemMol_Xiaomi_kir_kamera_kass'
     region: 'KIR'
-- targets: ['10.43.22.64']
-  labels:
-    group: 't2_kam'
-    name: 'JemMol_Xiaomi_kir_kamera_T2'
-    region: 'KIR'
 - targets: ['10.43.22.31']
   labels:
     group: 'Schetchiki'
-    name: 'JemMol_Xiaomi_kir_T2_Schetchik'
+    name: 'JemMol_Xiaomi_kir_Schetchik'
     region: 'KIR'
 - targets: ['10.43.23.10']
   labels:
@@ -1248,3 +1243,318 @@
     group: 'Schetchiki'
     name: 'PRM_Krisanova_19_T2_Schetchik'
     region: 'PRM'
+- targets: ['10.59.11.10']
+  labels:
+    group: 'osn_kam'
+    name: 'PRM_Popova_61_kamera_osn'
+    region: 'PRM'
+- targets: ['10.59.11.11']
+  labels:
+    group: 'kas_kam'
+    name: 'PRM_Popova_61_kamera_kass'
+    region: 'PRM'
+- targets: ['10.59.11.64']
+  labels:
+    group: 'osn_kam'
+    name: 'PRM_Popova_61_kamera_T2'
+    region: 'PRM'
+- targets: ['10.59.11.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'PRM_Popova_61_Schetchik'
+    region: 'PRM'
+- targets: ['10.59.12.10']
+  labels:
+    group: 'osn_kam'
+    name: 'PRM_Kosmonavtov_256_kamera_osn'
+    region: 'PRM'
+- targets: ['10.59.12.11']
+  labels:
+    group: 'kas_kam'
+    name: 'PRM_Kosmonavtov_256_kamera_kass'
+    region: 'PRM'
+- targets: ['10.59.12.12']
+  labels:
+    group: 'podsob_kam'
+    name: 'PRM_Kosmonavtov_256_kamera_podsob'
+    region: 'PRM'
+- targets: ['10.59.12.64']
+  labels:
+    group: 't2_kam'
+    name: 'PRM_Kosmonavtov_256_kamera_T2'
+    region: 'PRM'
+- targets: ['10.59.13.10']
+  labels:
+    group: 'osn_kam'
+    name: 'PRM_Vetluzhskaia_kamera_osn'
+    region: 'PRM'
+- targets: ['10.59.13.11']
+  labels:
+    group: 'kas_kam'
+    name: 'PRM_Vetluzhskaia_kamera_kass'
+    region: 'PRM'
+- targets: ['10.59.13.12']
+  labels:
+    group: 'podsob_kam'
+    name: 'PRM_Vetluzhskaia_kamera_podsob'
+    region: 'PRM'
+- targets: ['10.59.13.64']
+  labels:
+    group: 't2_kam'
+    name: 'PRM_Vetluzhskaia_kamera_T2'
+    region: 'PRM'
+- targets: ['10.59.14.10']
+  labels:
+    group: 'osn_kam'
+    name: 'PRM_Ushakova_kamera_osn'
+    region: 'PRM'
+- targets: ['10.59.14.11']
+  labels:
+    group: 'kas_kam'
+    name: 'PRM_Ushakova_kamera_kass'
+    region: 'PRM'
+- targets: ['10.59.14.64']
+  labels:
+    group: 't2_kam'
+    name: 'PRM_Ushakova_kamera_T2'
+    region: 'PRM'
+- targets: ['10.59.14.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'PRM_Ushakova_Schetchik'
+    region: 'PRM'
+- targets: ['10.59.15.10']
+  labels:
+    group: 'osn_kam'
+    name: 'PRM_PR_Parkovi_kamera_osn'
+    region: 'PRM'
+- targets: ['10.59.15.11']
+  labels:
+    group: 'kas_kam'
+    name: 'PRM_PR_Parkovi_kamera_kass'
+    region: 'PRM'
+- targets: ['10.59.15.64']
+  labels:
+    group: 't2_kam'
+    name: 'PRM_PR_Parkovi_kamera_T2'
+    region: 'PRM'
+- targets: ['10.59.16.10']
+  labels:
+    group: 'osn_kam'
+    name: 'PRM_Chaikovski_Marksa_T2_kamera_osn'
+    region: 'PRM'
+- targets: ['10.59.16.11']
+  labels:
+    group: 'kas_kam'
+    name: 'PRM_Chaikovski_Marksa_T2_kamera_kass'
+    region: 'PRM'
+- targets: ['10.59.16.64']
+  labels:
+    group: 't2_kam'
+    name: 'PRM_Chaikovski_Marksa_T2_kamera_T2'
+    region: 'PRM'
+- targets: ['10.59.16.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'PRM_Chaikovski_Marksa_T2_Schetchik'
+    region: 'PRM'
+- targets: ['10.59.17.10']
+  labels:
+    group: 'osn_kam'
+    name: 'PRM_Berez_Piatiletki_87_kamera_osn'
+    region: 'PRM'
+- targets: ['10.59.17.11']
+  labels:
+    group: 'kas_kam'
+    name: 'PRM_Berez_Piatiletki_87_kamera_kass'
+    region: 'PRM'
+- targets: ['10.59.17.12']
+  labels:
+    group: 'podsob_kam'
+    name: 'PRM_Berez_Piatiletki_87_kamera_podsob'
+    region: 'PRM'
+- targets: ['10.59.17.64']
+  labels:
+    group: 't2_kam'
+    name: 'PRM_Berez_Piatiletki_87_kamera_T2'
+    region: 'PRM'
+- targets: ['10.59.18.10']
+  labels:
+    group: 'osn_kam'
+    name: 'PRM_Berez_Piatiletki_41_TC_CUM_kamera_osn'
+    region: 'PRM'
+- targets: ['10.59.18.11']
+  labels:
+    group: 'kas_kam'
+    name: 'PRM_Berez_Piatiletki_41_TC_CUM_kamera_kass'
+    region: 'PRM'
+- targets: ['10.59.18.12']
+  labels:
+    group: 'podsob_kam'
+    name: 'PRM_Berez_Piatiletki_41_TC_CUM_kamera_podsob'
+    region: 'PRM'
+- targets: ['10.59.18.64']
+  labels:
+    group: 't2_kam'
+    name: 'PRM_Berez_Piatiletki_41_TC_CUM_kamera_T2'
+    region: 'PRM'
+- targets: ['10.59.18.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'PRM_Berez_Piatiletki_41_TC_CUM_Schetchik_1'
+    region: 'PRM'
+- targets: ['10.59.18.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'PRM_Berez_Piatiletki_41_TC_CUM_Schetchik_2'
+    region: 'PRM'
+- targets: ['10.59.19.10']
+  labels:
+    group: 'osn_kam'
+    name: 'PRM_Berezn_Ubileinaia_28_kamera_osn'
+    region: 'PRM'
+- targets: ['10.59.19.11']
+  labels:
+    group: 'kas_kam'
+    name: 'PRM_Berezn_Ubileinaia_28_kamera_kass'
+    region: 'PRM'
+- targets: ['10.59.19.64']
+  labels:
+    group: 't2_kam'
+    name: 'PRM_Berezn_Ubileinaia_28_kamera_T2'
+    region: 'PRM'
+- targets: ['10.59.20.10']
+  labels:
+    group: 'osn_kam'
+    name: 'PRM_Berezn_Mira_82_Semia_kamera_osn'
+    region: 'PRM'
+- targets: ['10.59.20.11']
+  labels:
+    group: 'kas_kam'
+    name: 'PRM_Berezn_Mira_82_Semia_kamera_kass'
+    region: 'PRM'
+- targets: ['10.59.20.12']
+  labels:
+    group: 'podsob_kam'
+    name: 'PRM_Berezn_Mira_82_Semia_kamera_podsob'
+    region: 'PRM'
+- targets: ['10.59.20.64']
+  labels:
+    group: 't2_kam'
+    name: 'PRM_Berezn_Mira_82_Semia_kamera_T2'
+    region: 'PRM'
+- targets: ['10.59.18.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'PRM_Berezn_Mira_82_Semia_Schetchik'
+    region: 'PRM'
+- targets: ['10.59.21.10']
+  labels:
+    group: 'osn_kam'
+    name: 'PRM_Solik_Sevrnaia_48_TC_Bismark_Avenu_kamera_osn'
+    region: 'PRM'
+- targets: ['10.59.21.11']
+  labels:
+    group: 'kas_kam'
+    name: 'PRM_Solik_Sevrnaia_48_TC_Bismark_Avenu_kamera_kass'
+    region: 'PRM'
+- targets: ['10.59.21.12']
+  labels:
+    group: 'podsob_kam'
+    name: 'PRM_Solik_Sevrnaia_48_TC_Bismark_Avenu_kamera_podsob'
+    region: 'PRM'
+- targets: ['10.59.21.64']
+  labels:
+    group: 't2_kam'
+    name: 'PRM_Solik_Sevrnaia_48_TC_Bismark_Avenu_kamera_T2'
+    region: 'PRM'
+- targets: ['10.59.21.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'PRM_Solik_Sevrnaia_48_TC_Bismark_Avenu_Schetchik'
+    region: 'PRM'
+- targets: ['10.59.22.10']
+  labels:
+    group: 'osn_kam'
+    name: 'PRM_Solik_Lenina_36b_TC_Bismark_Plaza_kamera_osn'
+    region: 'PRM'
+- targets: ['10.59.22.11']
+  labels:
+    group: 'kas_kam'
+    name: 'PRM_Solik_Lenina_36b_TC_Bismark_Plaza_kamera_kass'
+    region: 'PRM'
+- targets: ['10.59.22.12']
+  labels:
+    group: 'podsob_kam'
+    name: 'PRM_Solik_Lenina_36b_TC_Bismark_Plaza_kamera_podsob'
+    region: 'PRM'
+- targets: ['10.59.22.64']
+  labels:
+    group: 't2_kam'
+    name: 'PRM_Solik_Lenina_36b_TC_Bismark_Plaza_kamera_T2'
+    region: 'PRM'
+- targets: ['10.59.22.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'PRM_Solik_Lenina_36b_TC_Bismark_Plaza_Schetchik'
+    region: 'PRM'
+- targets: ['10.59.23.10']
+  labels:
+    group: 'osn_kam'
+    name: 'PRM_Solik_Pobedy_117_TC_CUM_kamera_osn'
+    region: 'PRM'
+- targets: ['10.59.23.11']
+  labels:
+    group: 'kas_kam'
+    name: 'PRM_Solik_Pobedy_117_TC_CUM_kamera_kass'
+    region: 'PRM'
+- targets: ['10.59.23.12']
+  labels:
+    group: 'podsob_kam'
+    name: 'PRM_Solik_Pobedy_117_TC_CUM_kamera_podsob'
+    region: 'PRM'
+- targets: ['10.59.23.64']
+  labels:
+    group: 't2_kam'
+    name: 'PRM_Solik_Pobedy_117_TC_CUM_kamera_T2'
+    region: 'PRM'
+- targets: ['10.59.23.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'PRM_Solik_Pobedy_117_TC_CUM_Schetchik'
+    region: 'PRM'
+- targets: ['10.59.25.10']
+  labels:
+    group: 'osn_kam'
+    name: 'PRM_Chaikovski_Marksa_XIAOMI_kamera_osn_1'
+    region: 'PRM'
+- targets: ['10.59.25.11']
+  labels:
+    group: 'osn_kam'
+    name: 'PRM_Chaikovski_Marksa_XIAOMI_kamera_osn_2'
+    region: 'PRM'
+- targets: ['10.59.25.12']
+  labels:
+    group: 'kas_kam'
+    name: 'PRM_Chaikovski_Marksa_XIAOMI_kamera_kass'
+    region: 'PRM'
+- targets: ['10.59.25.13']
+  labels:
+    group: 'podsob_kam'
+    name: 'PRM_Chaikovski_Marksa_XIAOMI_kamera_podsob_1'
+    region: 'PRM'
+- targets: ['10.59.25.14']
+  labels:
+    group: 'podsob_kam'
+    name: 'PRM_Chaikovski_Marksa_XIAOMI_kamera_podsob_2'
+    region: 'PRM'
+- targets: ['10.59.25.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'PRM_Chaikovski_Marksa_XIAOMI_Schetchik'
+    region: 'PRM'
+- targets: ['172.16.43.10']
+  labels:
+    group: 'osn_kam'
+    name: 'TXP_office_kamera_osn'
+    region: 'KZN'
