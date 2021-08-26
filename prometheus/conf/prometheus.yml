@@ -9,6 +9,7 @@ rule_files:
   - "swarm_node.rules.yml"
   - "swarm_task.rules.yml"
   - "blackbox-icmp.rules.yml"
+  - "blackbox-http.rules.yml"  
 
 alerting:
   alertmanagers:

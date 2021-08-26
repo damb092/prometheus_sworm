@@ -20,8 +20,10 @@ configs:
     file: ./prometheus/rules/swarm_node.rules.yml
   task_rules:
     file: ./prometheus/rules/swarm_task.rules.yml
-  blackbox_rules:
-    file: ./prometheus/rules/blackbox-icmp.rules.yml  
+  blackbox_icmp_rules:
+    file: ./prometheus/rules/blackbox-icmp.rules.yml
+  blackbox_http_rules:
+    file: ./prometheus/rules/blackbox-http.rules.yml  
 
 services:
 #  dockerd-exporter:
@@ -165,8 +167,10 @@ services:
         target: /etc/prometheus/swarm_node.rules.yml
       - source: task_rules
         target: /etc/prometheus/swarm_task.rules.yml
-      - source: blackbox_rules
+      - source: blackbox_icmp_rules
         target: /etc/prometheus/blackbox-icmp.rules.yml
+      - source: blackbox_http_rules
+        target: /etc/prometheus/blackbox-http.rules.yml
     deploy:
       mode: replicated
       replicas: 1
