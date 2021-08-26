@@ -2,7 +2,7 @@ groups:
 - name: blackbox-icmp
   rules:
     - alert: host_is_not_available_via_icmp
-      expr: probe_success{job="blackbox-icmp-general"} == 0
+      expr: probe_success{job="blackbox-icmp"} == 0
       for: 3m
       labels:
         severity: critical
