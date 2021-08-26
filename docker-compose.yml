@@ -184,8 +184,6 @@ services:
     volumes:
       - './config/mikrotik:/config'
     environment:
-      - MIKROTIK_USER=${MIKROTIK_USER:-prometheus}
-      - MIKROTIK_PASSWORD=${MIKROTIK_PASSWORD:-changeme}
       - CONFIG_FILE=/config/config.yml
     networks:
       - net

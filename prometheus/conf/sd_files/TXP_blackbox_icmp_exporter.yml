@@ -1,8 +1,3 @@
-- targets: ['192.168.16.10']
-  labels:
-    group: 'routers'
-    name: 'Adelia_Kut_MF_MTS'
-    region: 'KZN'
 - targets: ['10.16.10.10']
   labels:
     group: 'osn_kam'
@@ -33,11 +28,6 @@
     group: 'Schetchiki'
     name: 'Adelia_Kut_MTS_Schetchik'
     region: 'KZN'
-- targets: ['10.16.11.1']
-  labels:
-    group: 'routers'
-    name: 'Adelia_Kut_T2'
-    region: 'KZN'
 - targets: ['10.16.11.10']
   labels:
     group: 'osn_kam'
@@ -52,16 +42,6 @@
   labels:
     group: 't2_kam'
     name: 'Adelia_Kut_T2_kamera_T2'
-    region: 'KZN'
-- targets: ['10.16.11.254']
-  labels:
-    group: 'hot_wifi'
-    name: 'Adelia_Kut_T2_hot_wifi'
-    region: 'KZN'
-- targets: ['192.168.16.12']
-  labels:
-    group: 'routers'
-    name: 'Kukmor_T2'
     region: 'KZN'
 - targets: ['10.16.12.64']
   labels:
@@ -82,16 +62,6 @@
   labels:
     group: 'Schetchiki'
     name: 'Kukmor_T2_Schetchik'
-    region: 'KZN'
-- targets: ['10.16.12.254']
-  labels:
-    group: 'hot_wifi'
-    name: 'Kukmor_T2_hot_wifi'
-    region: 'KZN'
-- targets: ['192.168.16.13']
-  labels:
-    group: 'routers'
-    name: 'Vasilevo_MTS_T2'
     region: 'KZN'
 - targets: ['10.16.13.10']
   labels:
@@ -128,16 +98,6 @@
     group: 'Schetchiki'
     name: 'Vasilevo_MTS_Schetchik'
     region: 'KZN'
-- targets: ['10.16.13.254']
-  labels:
-    group: 'hot_wifi'
-    name: 'Vasilevo_T2_hot_wifi'
-    region: 'KZN'
-- targets: ['192.168.16.14']
-  labels:
-    group: 'routers'
-    name: 'Dementeva_T2'
-    region: 'KZN'
 - targets: ['10.16.14.10']
   labels:
     group: 'osn_kam'
@@ -153,16 +113,6 @@
     group: 't2_kam'
     name: 'Dementeva_T2_kamera_T2'
     region: 'KZN'
-- targets: ['10.16.14.254']
-  labels:
-    group: 'hot_wifi'
-    name: 'Dementeva_T2_hot_wifi'
-    region: 'KZN'
-- targets: ['192.168.16.15']
-  labels:
-    group: 'routers'
-    name: 'Dzalil_T2_CHE'
-    region: 'ZKM'
 - targets: ['10.16.15.10']
   labels:
     group: 'osn_kam'
@@ -178,16 +128,6 @@
     group: 't2_kam'
     name: 'Dzalil_T2_CHE_kamera_T2'
     region: 'ZKM'
-- targets: ['10.16.15.254']
-  labels:
-    group: 'hot_wifi'
-    name: 'Dzalil_T2_CHE_hot_wifi'
-    region: 'ZKM'
-- targets: ['192.168.16.16']
-  labels:
-    group: 'routers'
-    name: 'Gudovancevo_T2'
-    region: 'KZN'
 - targets: ['10.16.16.10']
   labels:
     group: 'osn_kam'
@@ -203,16 +143,6 @@
     group: 't2_kam'
     name: 'Gudovancevo_T2_kamera_T2'
     region: 'KZN'
-- targets: ['10.16.16.254']
-  labels:
-    group: 'hot_wifi'
-    name: 'Gudovancevo_T2_hot_wifi'
-    region: 'KZN'
-- targets: ['192.168.16.17']
-  labels:
-    group: 'routers'
-    name: 'Zalesny_T2'
-    region: 'KZN'
 - targets: ['10.16.17.10']
   labels:
     group: 'osn_kam'
@@ -227,16 +157,6 @@
   labels:
     group: 't2_kam'
     name: 'Zalesny_T2_kamera_T2'
-    region: 'KZN'
-- targets: ['10.16.17.254']
-  labels:
-    group: 'hot_wifi'
-    name: 'Zalesny_T2_hot_wifi'
-    region: 'KZN'
-- targets: ['192.168.16.18']
-  labels:
-    group: 'routers'
-    name: 'Zelenodolsk_MF/T2'
     region: 'KZN'
 - targets: ['10.16.18.10']
   labels:
@@ -273,16 +193,6 @@
     group: 't2_kam'
     name: 'Zelenodolsk_T2_kamera_T2'
     region: 'KZN'
-- targets: ['10.16.18.254']
-  labels:
-    group: 'hot_wifi'
-    name: 'Zelenodolsk_T2_hot_wifi'
-    region: 'KZN'
-- targets: ['192.168.16.19']
-  labels:
-    group: 'routers'
-    name: 'Zorge_75_T2/MTS'
-    region: 'KZN'
 - targets: ['10.16.19.10']
   labels:
     group: 'osn_kam'
@@ -313,16 +223,6 @@
     group: 'Schetchiki'
     name: 'Zorge_75_MTS_Schetchik'
     region: 'KZN'
-- targets: ['10.16.19.254']
-  labels:
-    group: 'hot_wifi'
-    name: 'Zorge_75_T2_hot_wifi'
-    region: 'KZN'
-- targets: ['192.168.16.20']
-  labels:
-    group: 'routers'
-    name: 'Zorge_93_T2'
-    region: 'KZN'
 - targets: ['10.16.20.10']
   labels:
     group: 'osn_kam'
@@ -337,16 +237,6 @@
   labels:
     group: 't2_kam'
     name: 'Zorge_93_T2_kamera_T2'
-    region: 'KZN'
-- targets: ['10.16.20.254']
-  labels:
-    group: 'hot_wifi'
-    name: 'Zorge_93_T2_hot_wifi'
-    region: 'KZN'
-- targets: ['192.168.16.21']
-  labels:
-    group: 'routers'
-    name: 'Zorge_11b_MTS_TC_Gorki_park'
     region: 'KZN'
 - targets: ['10.16.21.10']
   labels:
@@ -373,11 +263,6 @@
     group: 'Schetchiki'
     name: 'Zorge_11b_MTS_TC_Gorki_park_Schetchik'
     region: 'KZN'
-- targets: ['192.168.16.22']
-  labels:
-    group: 'routers'
-    name: 'Kolco_T2'
-    region: 'KZN'
 - targets: ['10.16.22.10']
   labels:
     group: 'osn_kam'
@@ -398,16 +283,6 @@
     group: 't2_kam'
     name: 'Kolco_T2_kamera_T2'
     region: 'KZN'
-- targets: ['10.16.22.254']
-  labels:
-    group: 'hot_wifi'
-    name: 'Kolco_T2_hot_wifi'
-    region: 'KZN'
-- targets: ['192.168.16.23']
-  labels:
-    group: 'routers'
-    name: 'Bavly'
-    region: 'ZKM'
 - targets: ['10.16.23.10']
   labels:
     group: 'osn_kam'
@@ -443,11 +318,6 @@
     group: 'Schetchiki'
     name: 'Bavly_MF_Schetchik'
     region: 'ZKM'
-- targets: ['192.168.16.25']
-  labels:
-    group: 'routers'
-    name: 'Leningradskaya_MF'
-    region: 'KZN'
 - targets: ['10.16.25.10']
   labels:
     group: 'osn_kam'
@@ -462,11 +332,6 @@
   labels:
     group: 'Schetchiki'
     name: 'Leningradskaya_MF_Schetchik'
-    region: 'KZN'
-- targets: ['192.168.16.26']
-  labels:
-    group: 'routers'
-    name: 'Lomzhinskaya_MF/T2'
     region: 'KZN'
 - targets: ['10.16.26.10']
   labels:
@@ -508,16 +373,6 @@
     group: 'Schetchiki'
     name: 'Lomzhinskaya_T2_Schetchik_2'
     region: 'KZN'
-- targets: ['10.16.26.254']
-  labels:
-    group: 'hot_wifi'
-    name: 'Lomzhinskaya_T2_hot_wifi'
-    region: 'KZN'
-- targets: ['192.168.16.27']
-  labels:
-    group: 'routers'
-    name: 'Mavlutova_T2'
-    region: 'KZN'
 - targets: ['10.16.27.10']
   labels:
     group: 'osn_kam'
@@ -532,16 +387,6 @@
   labels:
     group: 't2_kam'
     name: 'Mavlutova_T2_kamera_T2'
-    region: 'KZN'
-- targets: ['10.16.27.254']
-  labels:
-    group: 'hot_wifi'
-    name: 'Mavlutova_T2_hot_wifi'
-    region: 'KZN'
-- targets: ['192.168.16.28']
-  labels:
-    group: 'routers'
-    name: 'Megga_Mebel_MTS'
     region: 'KZN'
 - targets: ['10.16.28.10']
   labels:
@@ -558,11 +403,6 @@
     group: 'Schetchiki'
     name: 'Megga_Mebel_MTS_Schetchik'
     region: 'KZN'
-- targets: ['192.168.16.29']
-  labels:
-    group: 'routers'
-    name: 'Menzelinsk_T2_CHE'
-    region: 'ZKM'
 - targets: ['10.16.29.10']
   labels:
     group: 'osn_kam'
@@ -578,16 +418,6 @@
     group: 't2_kam'
     name: 'Menzelinsk_T2_CHE_kamera_T2'
     region: 'ZKM'
-- targets: ['10.16.29.254']
-  labels:
-    group: 'hot_wifi'
-    name: 'Menzelinsk_T2_CHE_hot_wifi'
-    region: 'ZKM'
-- targets: ['192.168.16.30']
-  labels:
-    group: 'routers'
-    name: 'Yamasheva_71_MTS'
-    region: 'KZN'
 - targets: ['10.16.30.10']
   labels:
     group: 'osn_kam'
@@ -603,11 +433,6 @@
     group: 'Schetchiki'
     name: 'Yamasheva_71_MTS_Schetchik'
     region: 'KZN'
-- targets: ['192.168.16.31']
-  labels:
-    group: 'routers'
-    name: 'TC_Sitimoll_T2_CHE'
-    region: 'ZKM'
 - targets: ['10.16.31.10']
   labels:
     group: 'osn_kam'
@@ -628,13 +453,798 @@
     group: 'Schetchiki'
     name: 'TC_Sitimoll_T2_CHE_Schetchik'
     region: 'ZKM'
-- targets: ['10.16.31.254']
+- targets: ['10.16.32.10']
   labels:
-    group: 'hot_wifi'
-    name: 'TC_Sitimoll_T2_CHE_hot_wifi'
-    region: 'ZKM'
-- targets: ['192.168.16.32']
-  labels:
-    group: 'routers'
-    name: 'TC_Kazan_Moll_T2'
+    group: 'osn_kam'
+    name: 'TC_Kazan_Moll_T2_kamera_osn'
     region: 'KZN'
+- targets: ['10.16.32.11']
+  labels:
+    group: 'kas_kam'
+    name: 'TC_Kazan_Moll_T2_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.32.12']
+  labels:
+    group: 'podsob_kam'
+    name: 'TC_Kazan_Moll_T2_kamera_podsob'
+    region: 'KZN'
+- targets: ['10.16.32.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'TC_Kazan_Moll_T2_Schetchik_1'
+    region: 'KZN'
+- targets: ['10.16.32.32']
+  labels:
+    group: 'Schetchiki'
+    name: 'TC_Kazan_Moll_T2_Schetchik_2'
+    region: 'KZN'
+- targets: ['10.16.32.64']
+  labels:
+    group: 't2_kam'
+    name: 'TC_Kazan_Moll_T2_kamera_T2'
+    region: 'KZN'
+- targets: ['10.16.33.11']
+  labels:
+    group: 'osn_kam'
+    name: 'Osinovo_MF_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.33.12']
+  labels:
+    group: 'osn_kam'
+    name: 'Osinovo_MTS_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.33.14']
+  labels:
+    group: 'kas_kam'
+    name: 'Osinovo_MF_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.33.13']
+  labels:
+    group: 'kas_kam'
+    name: 'Osinovo_MTS_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.33.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'Osinovo_MTS_Schetchik'
+    region: 'KZN'
+- targets: ['10.16.33.32']
+  labels:
+    group: 'Schetchiki'
+    name: 'Osinovo_MF_Schetchik'
+    region: 'KZN'
+- targets: ['10.16.34.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Osinovo_T2_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.34.11']
+  labels:
+    group: 'kas_kam'
+    name: 'Osinovo_T2_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.34.64']
+  labels:
+    group: 't2_kam'
+    name: 'Osinovo_T2_kamera_T2'
+    region: 'KZN'
+- targets: ['10.16.35.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Politra_T2_CHE_kamera_osn'
+    region: 'ZKM'
+- targets: ['10.16.35.11']
+  labels:
+    group: 'kas_kam'
+    name: 'Politra_T2_CHE_kamera_kass'
+    region: 'ZKM'
+- targets: ['10.16.35.64']
+  labels:
+    group: 't2_kam'
+    name: 'Politra_T2_CHE_kamera_T2'
+    region: 'ZKM'
+- targets: ['10.16.35.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'Politra_T2_CHE_Schetchik'
+    region: 'ZKM'
+- targets: ['10.16.36.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Park_House_T2_Modul_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.36.11']
+  labels:
+    group: 'kas_kam'
+    name: 'Park_House_T2_Modul_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.37.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Park_House_T2_Salon_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.37.11']
+  labels:
+    group: 'kas_kam'
+    name: 'Park_House_T2_Salon_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.37.64']
+  labels:
+    group: 't2_kam'
+    name: 'Park_House_T2_Salon_kamera_T2'
+    region: 'KZN'
+- targets: ['10.16.37.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'Park_House_T2_Salon_Schetchik'
+    region: 'KZN'
+- targets: ['10.16.38.10']
+  labels:
+    group: 'osn_kam'
+    name: 'KZN_Derbishki_T2_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.38.11']
+  labels:
+    group: 'kas_kam'
+    name: 'KZN_Derbishki_T2_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.38.64']
+  labels:
+    group: 't2_kam'
+    name: 'KZN_Derbishki_T2_kamera_T2'
+    region: 'KZN'
+- targets: ['10.16.38.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'KZN_Derbishki_T2_Schetchik'
+    region: 'KZN'
+- targets: ['10.16.39.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Roddom_T2_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.39.11']
+  labels:
+    group: 'osn_kam'
+    name: 'Roddom_MF_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.39.12']
+  labels:
+    group: 'kas_kam'
+    name: 'Roddom_MF_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.39.13']
+  labels:
+    group: 'kas_kam'
+    name: 'Roddom_T2_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.39.64']
+  labels:
+    group: 't2_kam'
+    name: 'Roddom_T2_kamera_T2'
+    region: 'KZN'
+- targets: ['10.16.39.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'Roddom_MF_Schetchik'
+    region: 'KZN'
+- targets: ['10.16.40.10']
+  labels:
+    group: 'osn_kam'
+    name: 'TC_Chelni_Hleb_MTS_kamera_osn'
+    region: 'ZKM'
+- targets: ['10.16.40.11']
+  labels:
+    group: 'kas_kam'
+    name: 'TC_Chelni_Hleb_MTS_kamera_kass'
+    region: 'ZKM'
+- targets: ['10.16.40.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'TC_Chelni_Hleb_MTS_Schetchik'
+    region: 'ZKM'
+- targets: ['10.16.41.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Tandem_T2_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.42.10']
+  labels:
+    group: 'osn_kam'
+    name: 'TC_Kvartal_T2_CHE_kamera_osn_1'
+    region: 'ZKM'
+- targets: ['10.16.42.11']
+  labels:
+    group: 'osn_kam'
+    name: 'TC_Kvartal_T2_CHE_kamera_osn_2'
+    region: 'ZKM'
+- targets: ['10.16.42.12']
+  labels:
+    group: 'kas_kam'
+    name: 'TC_Kvartal_T2_CHE_kamera_kass'
+    region: 'ZKM'
+- targets: ['10.16.42.64']
+  labels:
+    group: 't2_kam'
+    name: 'TC_Kvartal_T2_CHE_kamera_T2'
+    region: 'ZKM'
+- targets: ['10.16.42.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'TC_Kvartal_T2_CHE_Schetchik'
+    region: 'ZKM'
+- targets: ['10.16.43.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Urussy_MF_kamera_osn'
+    region: 'ZKM'
+- targets: ['10.16.43.11']
+  labels:
+    group: 'osn_kam'
+    name: 'Urussy_MTS_kamera_osn'
+    region: 'ZKM'
+- targets: ['10.16.43.12']
+  labels:
+    group: 'kas_kam'
+    name: 'Urussy_MF_kamera_kass'
+    region: 'ZKM'
+- targets: ['10.16.43.13']
+  labels:
+    group: 'kas_kam'
+    name: 'Urussy_MTS_kamera_kass'
+    region: 'ZKM'
+- targets: ['10.16.44.10']
+  labels:
+    group: 'osn_kam'
+    name: 'KZN_Derbishki_MF_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.44.11']
+  labels:
+    group: 'kas_kam'
+    name: 'KZN_Derbishki_MF_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.44.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'KZN_Derbishki_MF_Schetchik'
+    region: 'KZN'
+- targets: ['10.16.45.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Fuchika_64_T2_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.45.11']
+  labels:
+    group: 'kas_kam'
+    name: 'Fuchika_64_T2_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.45.64']
+  labels:
+    group: 't2_kam'
+    name: 'Fuchika_64_T2_kamera_T2'
+    region: 'KZN'
+- targets: ['10.16.46.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Energetik_T2_CHE_kamera_osn'
+    region: 'ZKM'
+- targets: ['10.16.46.11']
+  labels:
+    group: 'kas_kam'
+    name: 'Energetik_T2_CHE_kamera_kass'
+    region: 'ZKM'
+- targets: ['10.16.46.64']
+  labels:
+    group: 't2_kam'
+    name: 'Energetik_T2_CHE_kamera_T2'
+    region: 'ZKM'
+- targets: ['10.16.46.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'Energetik_T2_CHE_Schetchik'
+    region: 'ZKM'
+- targets: ['10.16.47.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Udino_MF_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.47.11']
+  labels:
+    group: 'osn_kam'
+    name: 'Udino_MTS_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.47.12']
+  labels:
+    group: 'kas_kam'
+    name: 'Udino_MF_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.47.13']
+  labels:
+    group: 'kas_kam'
+    name: 'Udino_MTS_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.47.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'Udino_MF_MTS_Schetchik'
+    region: 'KZN'
+- targets: ['10.16.49.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Yagodnaya_MF_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.49.11']
+  labels:
+    group: 'kas_kam'
+    name: 'Yagodnaya_MF_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.49.12']
+  labels:
+    group: 'podsob_kam'
+    name: 'Yagodnaya_MF_kamera_podsob'
+    region: 'KZN'
+- targets: ['10.16.49.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'Yagodnaya_MF_Schetchik'
+    region: 'KZN'
+- targets: ['10.16.50.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Yamashevo_MF_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.50.11']
+  labels:
+    group: 'osn_kam'
+    name: 'Yamashevo_T2_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.50.12']
+  labels:
+    group: 'kas_kam'
+    name: 'Yamashevo_MF_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.50.13']
+  labels:
+    group: 'kas_kam'
+    name: 'Yamashevo_T2_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.50.64']
+  labels:
+    group: 't2_kam'
+    name: 'Yamashevo_T2_kamera_T2'
+    region: 'KZN'
+- targets: ['10.16.50.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'Yamashevo_T2_Schetchik'
+    region: 'KZN'
+- targets: ['10.16.53.10']
+  labels:
+    group: 'osn_kam'
+    name: 'ZUM_T2_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.53.11']
+  labels:
+    group: 'kas_kam'
+    name: 'ZUM_T2_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.53.12']
+  labels:
+    group: 'podsob_kam'
+    name: 'ZUM_T2_kamera_podsob'
+    region: 'KZN'
+- targets: ['10.16.54.10']
+  labels:
+    group: 'osn_kam'
+    name: 'TC_MOKI_MF_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.54.12']
+  labels:
+    group: 'osn_kam'
+    name: 'TC_MOKI_MTS_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.54.11']
+  labels:
+    group: 'kas_kam'
+    name: 'TC_MOKI_MTS_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.54.13']
+  labels:
+    group: 'kas_kam'
+    name: 'TC_MOKI_MF_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.54.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'TC_MOKI_MF_Schetchik'
+    region: 'KZN'
+- targets: ['10.16.54.32']
+  labels:
+    group: 'Schetchiki'
+    name: 'TC_MOKI_MTS_Schetchik'
+    region: 'KZN'
+- targets: ['10.16.56.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Arsk_T2_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.56.11']
+  labels:
+    group: 'kas_kam'
+    name: 'Arsk_T2_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.56.64']
+  labels:
+    group: 't2_kam'
+    name: 'Arsk_T2_kamera_T2'
+    region: 'KZN'
+- targets: ['10.16.59.10']
+  labels:
+    group: 'osn_kam'
+    name: 'TC_MOKI_T2_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.59.11']
+  labels:
+    group: 'kas_kam'
+    name: 'TC_MOKI_T2_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.59.64']
+  labels:
+    group: 't2_kam'
+    name: 'TC_MOKI_T2_kamera_T2'
+    region: 'KZN'
+- targets: ['10.16.59.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'TC_MOKI_T2_Schetchik'
+    region: 'KZN'
+- targets: ['10.16.60.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Zorge_66_T2_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.60.11']
+  labels:
+    group: 'osn_kam'
+    name: 'Zorge_66_MTS_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.60.12']
+  labels:
+    group: 'kas_kam'
+    name: 'Zorge_66_T2_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.60.13']
+  labels:
+    group: 'kas_kam'
+    name: 'Zorge_66_MTS_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.60.14']
+  labels:
+    group: 'podsob_kam'
+    name: 'Zorge_66_T2_kamera_podsob'
+    region: 'KZN'
+- targets: ['10.16.60.15']
+  labels:
+    group: 'podsob_kam'
+    name: 'Zorge_66_MTS_kamera_podsob'
+    region: 'KZN'
+- targets: ['10.16.60.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'Zorge_66_MTS_Schetchik'
+    region: 'KZN'
+- targets: ['10.16.61.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Visokaya_gora_MTS_kamera_osn'
+    region: 'KZN'
+- targets: ['10.16.61.12']
+  labels:
+    group: 'kas_kam'
+    name: 'Visokaya_gora_MTS_kamera_kass'
+    region: 'KZN'
+- targets: ['10.16.61.11']
+  labels:
+    group: 'podsob_kam'
+    name: 'Visokaya_gora_MTS_kamera_podsob'
+    region: 'KZN'
+- targets: ['10.16.61.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'Visokaya_gora_MTS_Schetchik'
+    region: 'KZN'
+- targets: ['10.43.10.10']
+  labels:
+    group: 'osn_kam'
+    name: 'JemMol_T2_Kir_kamera_osn'
+    region: 'KIR'
+- targets: ['10.43.10.11']
+  labels:
+    group: 'kas_kam'
+    name: 'JemMol_T2_Kir_kamera_kass'
+    region: 'KIR'
+- targets: ['10.43.10.64']
+  labels:
+    group: 't2_kam'
+    name: 'JemMol_T2_Kir_kamera_T2'
+    region: 'KIR'
+- targets: ['10.43.10.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'VJemMol_T2_Kir_Schetchik'
+    region: 'KIR'
+- targets: ['10.43.11.10']
+  labels:
+    group: 'osn_kam'
+    name: 'TC_Leto_T2_Kir_kamera_osn'
+    region: 'KIR'
+- targets: ['10.43.11.11']
+  labels:
+    group: 'kas_kam'
+    name: 'TC_Leto_T2_Kir_kamera_kass'
+    region: 'KIR'
+- targets: ['10.43.11.64']
+  labels:
+    group: 't2_kam'
+    name: 'TC_Leto_T2_Kir_kamera_T2'
+    region: 'KIR'
+- targets: ['10.43.11.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'TC_Leto_T2_Kir_Schetchik'
+    region: 'KIR'
+- targets: ['10.43.12.10']
+  labels:
+    group: 'osn_kam'
+    name: 'TC_Maximum_T2_Kir_kamera_osn'
+    region: 'KIR'
+- targets: ['10.43.12.11']
+  labels:
+    group: 'kas_kam'
+    name: 'TC_Maximum_T2_Kir_kamera_kass'
+    region: 'KIR'
+- targets: ['10.43.12.64']
+  labels:
+    group: 't2_kam'
+    name: 'TC_Maximum_T2_Kir_kamera_T2'
+    region: 'KIR'
+- targets: ['10.43.12.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'TC_Maximum_T2_Kir_Schetchik'
+    region: 'KIR'
+- targets: ['10.43.13.10']
+  labels:
+    group: 'osn_kam'
+    name: 'PR_Oktabr_16_Kir_kamera_osn'
+    region: 'KIR'
+- targets: ['10.43.13.11']
+  labels:
+    group: 'kas_kam'
+    name: 'PR_Oktabr_16_Kir_kamera_kass'
+    region: 'KIR'
+- targets: ['10.43.13.64']
+  labels:
+    group: 't2_kam'
+    name: 'PR_Oktabr_16_Kir_kamera_T2'
+    region: 'KIR'
+- targets: ['10.43.14.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Lepse_T2_kir_kamera_osn'
+    region: 'KIR'
+- targets: ['10.43.14.11']
+  labels:
+    group: 'kas_kam'
+    name: 'Lepse_T2_kir_kamera_kass'
+    region: 'KIR'
+- targets: ['10.43.14.64']
+  labels:
+    group: 't2_kam'
+    name: 'Lepse_T2_kir_kamera_T2'
+    region: 'KIR'
+- targets: ['10.43.15.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Upita_T2_Kir_kamera_osn'
+    region: 'KIR'
+- targets: ['10.43.15.11']
+  labels:
+    group: 'kas_kam'
+    name: 'Upita_T2_Kir_kamera_kass'
+    region: 'KIR'
+- targets: ['10.43.15.64']
+  labels:
+    group: 't2_kam'
+    name: 'Upita_T2_Kir_kamera_T2'
+    region: 'KIR'
+- targets: ['10.43.16.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Kirovo_Chepetsk_60_let_kamera_osn'
+    region: 'KIR'
+- targets: ['10.43.16.11']
+  labels:
+    group: 'kas_kam'
+    name: 'Kirovo_Chepetsk_60_let_kamera_kass'
+    region: 'KIR'
+- targets: ['10.43.16.64']
+  labels:
+    group: 't2_kam'
+    name: 'Kirovo_Chepetsk_60_let_kamera_T2'
+    region: 'KIR'
+- targets: ['10.43.17.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Kirovo_Chepetsk_Mira_74_kamera_osn'
+    region: 'KIR'
+- targets: ['10.43.17.11']
+  labels:
+    group: 'kas_kam'
+    name: 'Kirovo_Chepetsk_Mira_74_kamera_kass'
+    region: 'KIR'
+- targets: ['10.43.17.64']
+  labels:
+    group: 't2_kam'
+    name: 'Kirovo_Chepetsk_Mira_74_kamera_T2'
+    region: 'KIR'
+- targets: ['10.43.18.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Vorovskogo_77_KIR_kamera_osn'
+    region: 'KIR'
+- targets: ['10.43.18.11']
+  labels:
+    group: 'kas_kam'
+    name: 'Vorovskogo_77_KIR_kamera_kass'
+    region: 'KIR'
+- targets: ['10.43.18.64']
+  labels:
+    group: 't2_kam'
+    name: 'Vorovskogo_77_KIR_kamera_T2'
+    region: 'KIR'
+- targets: ['10.43.18.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'Vorovskogo_77_KIR_Schetchik_1'
+    region: 'KIR'
+- targets: ['10.43.18.32']
+  labels:
+    group: 'Schetchiki'
+    name: 'Vorovskogo_77_KIR_Schetchik_2'
+    region: 'KIR'
+- targets: ['10.43.19.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Shorsa_95_T2_Kir_kamera_osn'
+    region: 'KIR'
+- targets: ['10.43.19.11']
+  labels:
+    group: 'kas_kam'
+    name: 'Shorsa_95_T2_Kir_kamera_kass'
+    region: 'KIR'
+- targets: ['10.43.19.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'Shorsa_95_T2_Kir_Schetchik'
+    region: 'KIR'
+- targets: ['10.43.19.64']
+  labels:
+    group: 't2_kam'
+    name: 'Shorsa_95_T2_Kir_kamera_T2'
+    region: 'KIR'
+- targets: ['10.43.20.10']
+  labels:
+    group: 'osn_kam'
+    name: 'TC_Rossia_Kir_kamera_osn'
+    region: 'KIR'
+- targets: ['10.43.20.11']
+  labels:
+    group: 'kas_kam'
+    name: 'TC_Rossia_Kir_kamera_kass'
+    region: 'KIR'
+- targets: ['10.43.20.64']
+  labels:
+    group: 't2_kam'
+    name: 'TC_Rossia_Kir_kamera_T2'
+    region: 'KIR'
+- targets: ['10.43.20.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'TC_Rossia_Kir_Schetchik'
+    region: 'KIR'
+- targets: ['10.43.21.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Viat_Pol_Gagarina_11_T2_kamera_osn'
+    region: 'KIR'
+- targets: ['10.43.21.11']
+  labels:
+    group: 'kas_kam'
+    name: 'Viat_Pol_Gagarina_11_T2_kamera_kass'
+    region: 'KIR'
+- targets: ['10.43.21.64']
+  labels:
+    group: 't2_kam'
+    name: 'Viat_Pol_Gagarina_11_T2_kamera_T2'
+    region: 'KIR'
+- targets: ['10.43.21.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'Viat_Pol_Gagarina_11_T2_Schetchik'
+    region: 'KIR'
+- targets: ['10.43.22.10']
+  labels:
+    group: 'osn_kam'
+    name: 'JemMol_Xiaomi_kir_kamera_osn_1'
+    region: 'KIR'
+- targets: ['10.43.22.11']
+  labels:
+    group: 'osn_kam'
+    name: 'JemMol_Xiaomi_kir_kamera_osn_2'
+    region: 'KIR'
+- targets: ['10.43.22.12']
+  labels:
+    group: 'kas_kam'
+    name: 'JemMol_Xiaomi_kir_kamera_kass'
+    region: 'KIR'
+- targets: ['10.43.22.64']
+  labels:
+    group: 't2_kam'
+    name: 'JemMol_Xiaomi_kir_kamera_T2'
+    region: 'KIR'
+- targets: ['10.43.22.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'JemMol_Xiaomi_kir_T2_Schetchik'
+    region: 'KIR'
+- targets: ['10.43.23.10']
+  labels:
+    group: 'osn_kam'
+    name: 'KRV_Luganskaia_53_T2_TC_Maxi_kamera_osn'
+    region: 'KIR'
+- targets: ['10.43.23.11']
+  labels:
+    group: 'kas_kam'
+    name: 'KRV_Luganskaia_53_T2_TC_Maxi_kamera_kass'
+    region: 'KIR'
+- targets: ['10.43.23.64']
+  labels:
+    group: 't2_kam'
+    name: 'KRV_Luganskaia_53_T2_TC_Maxi_kamera_T2'
+    region: 'KIR'
+- targets: ['10.43.23.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'KRV_Luganskaia_53_T2_TC_Schetchik'
+    region: 'KIR'
+- targets: ['10.43.24.10']
+  labels:
+    group: 'osn_kam'
+    name: 'JemMol_Xiaomi_kir_Sklad_kamera_osn'
+    region: 'KIR'
+- targets: ['10.59.2.10']
+  labels:
+    group: 'osn_kam'
+    name: 'Office_Perm_kamera_osn'
+    region: 'PRM'
+- targets: ['10.59.10.10']
+  labels:
+    group: 'osn_kam'
+    name: 'PRM_Krisanova_19_T2_kamera_osn'
+    region: 'PRM'
+- targets: ['10.59.10.11']
+  labels:
+    group: 'kas_kam'
+    name: 'PRM_Krisanova_19_T2_kamera_kass'
+    region: 'PRM'
+- targets: ['10.59.10.64']
+  labels:
+    group: 't2_kam'
+    name: 'PRM_Krisanova_19_T2_kamera_T2'
+    region: 'PRM'
+- targets: ['10.59.10.31']
+  labels:
+    group: 'Schetchiki'
+    name: 'PRM_Krisanova_19_T2_Schetchik'
+    region: 'PRM'
