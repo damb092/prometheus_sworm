@@ -166,7 +166,7 @@ services:
       - source: task_rules
         target: /etc/prometheus/swarm_task.rules.yml
       - source: blackbox_rules
-        terget: /etc/prometheus/blackbox-icmp.rules.yml
+        target: /etc/prometheus/blackbox-icmp.rules.yml
     deploy:
       mode: replicated
       replicas: 1
@@ -184,6 +184,8 @@ services:
     volumes:
       - './config/mikrotik:/config'
     environment:
+      - MIKROTIK_USER=${MIKROTIK_USER:-prometheus}
+      - MIKROTIK_PASSWORD=${MIKROTIK_PASSWORD:-changeme}
       - CONFIG_FILE=/config/config.yml
     networks:
       - net
