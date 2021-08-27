@@ -10,6 +10,7 @@ rule_files:
   - "swarm_task.rules.yml"
   - "blackbox-icmp.rules.yml"
   - "blackbox-http.rules.yml"  
+  - "mikrotik.rules.yml"
 
 alerting:
   alertmanagers:

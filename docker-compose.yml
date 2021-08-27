@@ -24,6 +24,8 @@ configs:
     file: ./prometheus/rules/blackbox-icmp.rules.yml
   blackbox_http_rules:
     file: ./prometheus/rules/blackbox-http.rules.yml  
+  mikrotik_interface_rules:
+    file: ./prometheus/rules/mikrotik.rules.yml
 
 services:
 #  dockerd-exporter:
@@ -171,6 +173,8 @@ services:
         target: /etc/prometheus/blackbox-icmp.rules.yml
       - source: blackbox_http_rules
         target: /etc/prometheus/blackbox-http.rules.yml
+      - source: mikrotik_interface_rules
+        target: /etc/prometheus/mikrotik.rules.yml
     deploy:
       mode: replicated
       replicas: 1

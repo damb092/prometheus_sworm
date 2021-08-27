@@ -1,0 +1,20 @@
+groups:
+- name: mikrotik-interface
+  rules:
+    - alert: interface_down_hot-wifi
+      expr: ifOperStatus{group="hot-wifi",ifName="Hot-WiFi-L2TP"} == 2
+      for: 3m
+      labels:
+        severity: critical
+      annotations:
+        description: "interface hot-wifi in host {{ $labels.instance }} is down  more than 3 minutes."
+        summary: "interface hot-wifi in host {{ $labels.instance }} is down"
+ 
+    - alert: interface_down_l2tp_tele2
+      expr: ifOperStatus{group="routers",ifName="l2tp-out-TELE2"} == 2
+      for: 3m
+      labels:
+        severity: critical
+      annotations:
+        description: "interface l2tp_tele2 in host {{ $labels.instance }} is down  more than 3 minutes."        
+        summary: "interface l2tp_tele2 in host {{ $labels.instance }} is down"
