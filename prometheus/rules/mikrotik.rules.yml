@@ -11,7 +11,7 @@ groups:
         summary: "interface hot-wifi in host {{ $labels.instance }} is down"
  
     - alert: interface_down_l2tp_tele2
-      expr: ifOperStatus{group="routers",ifName="l2tp-out-TELE2"} == 2
+      expr: ifOperStatus{l2tp_t2="yes",ifName="l2tp-out-TELE2"} == 2
       for: 3m
       labels:
         severity: critical

@@ -3,673 +3,802 @@
     group: 'routers'
     name: 'Adelia_Kut_MF_MTS'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.11.1']
   labels:
     group: 'routers'
     name: 'Adelia_Kut_T2'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.11.254']
   labels:
     group: 'hot-wifi'
     name: 'Adelia_Kut_T2_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.12.1']
   labels:
     group: 'routers'
     name: 'Kukmor_T2'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.12.254']
   labels:
     group: 'hot-wifi'
     name: 'Kukmor_T2'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.13.1']
   labels:
     group: 'routers'
     name: 'Vasilevo_MF/T2'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.13.254']
   labels:
     group: 'routers'
     name: 'Vasilevo_T2_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.14.1']
   labels:
     group: 'routers'
     name: 'Dementeva_T2'
     region: 'KZN'
-- targets: ['10.16.14.1']
+    l2tp_t2: 'yes'
+- targets: ['10.16.14.254']
   labels:
     group: 'hot-wifi'
     name: 'Dementeva_T2_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.15.1']
   labels:
     group: 'routers'
     name: 'Dzalil_T2_CHE'
     region: 'ZKM'
+    l2tp_t2: 'yes'
 - targets: ['10.16.15.254']
   labels:
     group: 'hot-wifi'
     name: 'Dzalil_T2_CHE_Hot_wifi'
     region: 'ZKM'
+    l2tp_t2: 'no'
 - targets: ['10.16.16.1']
   labels:
     group: 'routers'
     name: 'Gudovancevo_T2'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.16.254']
   labels:
     group: 'hot-wifi'
     name: 'Gudovancevo_T2_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.17.1']
   labels:
     group: 'routers'
     name: 'Zalesny_T2'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.17.254']
   labels:
     group: 'hot-wifi'
     name: 'Zalesny_T2_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.18.1']
   labels:
     group: 'routers'
     name: 'Zelenodolsk_MF/T2'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.18.254']
   labels:
     group: 'hot-wifi'
     name: 'Zelenodolsk_MF/T2_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.19.1']
   labels:
     group: 'routers'
     name: 'Zorge_75_T2/MTS'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.19.254']
   labels:
     group: 'hot-wifi'
     name: 'Zorge_75_T2/MTS_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.20.1']
   labels:
     group: 'routers'
     name: 'Zorge_93_T2'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.20.254']
   labels:
     group: 'hot-wifi'
     name: 'Zorge_93_T2_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.21.1']
   labels:
     group: 'routers'
     name: 'Zorge_11b_MTS_TC_Gorki_park'
     region: 'KZN'
-- targets: ['10.16.21.254']
-  labels:
-    group: 'hot-wifi'
-    name: 'Zorge_11b_MTS_TC_Gorki_park_Hot_wifi'
-    region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.22.1']
   labels:
     group: 'routers'
     name: 'Kolco_T2'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.22.254']
   labels:
     group: 'hot-wifi'
     name: 'Kolco_T2_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.23.1']
   labels:
     group: 'routers'
     name: 'Bavly'
     region: 'ZKM'
+    l2tp_t2: 'no'
 - targets: ['10.16.25.1']
   labels:
     group: 'routers'
     name: 'Leningradskaya_MF'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.26.1']
   labels:
     group: 'routers'
     name: 'Lomzhinskaya_MF/T2'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.26.254']
   labels:
     group: 'hot-wifi'
     name: 'Lomzhinskaya_T2_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.27.1']
   labels:
     group: 'routers'
     name: 'Mavlutova_T2'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.27.1']
   labels:
     group: 'hot-wifi'
     name: 'Mavlutova_T2_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.28.1']
   labels:
     group: 'routers'
     name: 'Megga_Mebel_MTS'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.29.1']
   labels:
     group: 'routers'
     name: 'Menzelinsk_T2_CHE'
     region: 'ZKM'
+    l2tp_t2: 'yes'
 - targets: ['10.16.29.1']
   labels:
     group: 'hot-wifi'
     name: 'Menzelinsk_T2_CHE_Hot_wifi'
     region: 'ZKM'
+    l2tp_t2: 'no'
 - targets: ['10.16.29.1']
   labels:
     group: 'routers'
     name: 'Yamasheva_71_MTS'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.31.1']
   labels:
     group: 'routers'
     name: 'TC_Sitimoll_T2_CHE'
     region: 'ZKM'
+    l2tp_t2: 'yes'
 - targets: ['10.16.31.254']
   labels:
     group: 'hot-wifi'
     name: 'TC_Sitimoll_T2_CHE_Hot_wifi'
     region: 'ZKM'
+    l2tp_t2: 'no'
 - targets: ['10.16.32.1']
   labels:
     group: 'routers'
     name: 'TC_Kazan_Moll_T2'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.32.254']
   labels:
     group: 'hot-wifi'
     name: 'TC_Kazan_Moll_T2_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.33.1']
   labels:
     group: 'routers'
     name: 'Osinovo_Bil/MF/MTS'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.34.1']
   labels:
     group: 'routers'
     name: 'Osinovo_T2'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.34.254']
   labels:
     group: 'hot-wifi'
     name: 'Osinovo_T2_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.35.1']
   labels:
     group: 'routers'
     name: 'Politra_T2_CHE'
     region: 'ZKM'
+    l2tp_t2: 'yes'
 - targets: ['10.16.35.254']
   labels:
     group: 'hot-wifi'
     name: 'Politra_T2_CHE_Hot_wifi'
     region: 'ZKM'
+    l2tp_t2: 'no'
 - targets: ['10.16.36.1']
   labels:
     group: 'routers'
     name: 'Park_House_T2_Modul'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.37.1']
   labels:
     group: 'routers'
     name: 'Park_House_T2_Salon'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.37.254']
   labels:
     group: 'hot-wifi'
     name: 'Park_House_T2_Salon_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.38.1']
   labels:
     group: 'routers'
     name: 'KZN_Derbishki_T2'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.38.254']
   labels:
     group: 'hot-wifi'
     name: 'KZN_Derbishki_T2_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.39.1']
   labels:
     group: 'routers'
     name: 'Roddom_MF/T2'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.39.254']
   labels:
     group: 'hot-wifi'
     name: 'Roddom_T2_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.40.1']
   labels:
     group: 'routers'
     name: 'TC_Chelni_Hleb_MTS'
     region: 'ZKM'
+    l2tp_t2: 'no'
 - targets: ['10.16.41.1']
   labels:
     group: 'routers'
     name: 'Tandem_T2'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.42.1']
   labels:
     group: 'routers'
     name: 'TC_Kvartal_T2_CHE'
     region: 'ZKM'
+    l2tp_t2: 'yes'
 - targets: ['10.16.42.254']
   labels:
     group: 'hot-wifi'
     name: 'TC_Kvartal_T2_CHE_Hot_wifi'
     region: 'ZKM'
+    l2tp_t2: 'no'
 - targets: ['10.16.43.1']
   labels:
     group: 'routers'
     name: 'Urussy_MTS/MF'
     region: 'ZKM'
+    l2tp_t2: 'no'
 - targets: ['10.16.44.1']
   labels:
     group: 'routers'
     name: 'KZN_Derbishki_MF'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.45.1']
   labels:
     group: 'routers'
     name: 'Fuchika_64_T2'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.45.254']
   labels:
     group: 'hot-wifi'
     name: 'Fuchika_64_T2_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.46.1']
   labels:
     group: 'routers'
     name: 'Energetik_T2_CHE'
     region: 'ZKM'
+    l2tp_t2: 'yes'
 - targets: ['10.16.46.1']
   labels:
     group: 'hot-wifi'
     name: 'Energetik_T2_CHE_Hot_wifi'
     region: 'ZKM'
+    l2tp_t2: 'no'
 - targets: ['10.16.47.1']
   labels:
     group: 'routers'
     name: 'Udino_MF_MTS'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.49.1']
   labels:
     group: 'routers'
     name: 'Yagodnaya_MF'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.50.1']
   labels:
     group: 'routers'
     name: 'Yamashevo_MF/T2'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.50.254']
   labels:
     group: 'hot-wifi'
     name: 'Yamashevo_T2_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.53.1']
   labels:
     group: 'routers'
     name: 'ZUM_T2'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.53.254']
   labels:
     group: 'hot-wifi'
     name: 'ZUM_T2_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.54.1']
   labels:
     group: 'routers'
     name: 'TC_MOKI'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.56.1']
   labels:
     group: 'routers'
     name: 'Arsk_T2'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.56.254']
   labels:
     group: 'hot-wifi'
     name: 'Arsk_T2_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.59.1']
   labels:
     group: 'routers'
     name: 'TC_MOKI_T2'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.59.254']
   labels:
     group: 'hot-wifi'
     name: 'TC_MOKI_T2_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.60.1']
   labels:
     group: 'routers'
     name: 'Zorge_66_T2'
     region: 'KZN'
+    l2tp_t2: 'yes'
 - targets: ['10.16.60.254']
   labels:
     group: 'hot-wifi'
     name: 'Zorge_66_T2_Hot_wifi'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.16.61.1']
   labels:
     group: 'routers'
     name: 'Visokaya_gora_MTS'
     region: 'KZN'
+    l2tp_t2: 'no'
 - targets: ['10.43.2.1']
   labels:
     group: 'routers'
     name: 'KRV_office'
     region: 'KIR'
+    l2tp_t2: 'no'
 - targets: ['10.43.10.1']
   labels:
     group: 'routers'
     name: 'JemMol_T2_Kir'
     region: 'KIR'
+    l2tp_t2: 'yes'
 - targets: ['10.43.10.254']
   labels:
     group: 'hot-wifi'
     name: 'JemMol_T2_Kir_Hot_wifi'
     region: 'KIR'
+    l2tp_t2: 'no'
 - targets: ['10.43.11.1']
   labels:
     group: 'routers'
     name: 'TC_Leto_T2_Kir'
     region: 'KIR'
+    l2tp_t2: 'yes'
 - targets: ['10.43.11.254']
   labels:
     group: 'hot-wifi'
     name: 'TC_Leto_T2_Kir_Hot_wifi'
     region: 'KIR'
+    l2tp_t2: 'no'
 - targets: ['10.43.12.1']
   labels:
     group: 'routers'
     name: 'TC_Maximum_T2_Kir'
     region: 'KIR'
+    l2tp_t2: 'yes'
 - targets: ['10.43.12.254']
   labels:
     group: 'hot-wifi'
     name: 'TC_Maximum_T2_Kir_Hot_wifi'
     region: 'KIR'
+    l2tp_t2: 'no'
 - targets: ['10.43.13.1']
   labels:
     group: 'routers'
     name: 'PR_Oktabr_16_Kir'
     region: 'KIR'
+    l2tp_t2: 'yes'
 - targets: ['10.43.13.254']
   labels:
     group: 'hot-wifi'
     name: 'PR_Oktabr_16_Kir_Hot_wifi'
     region: 'KIR'
+    l2tp_t2: 'no'
 - targets: ['10.43.14.1']
   labels:
     group: 'routers'
     name: 'Lepse_T2_kir'
     region: 'KIR'
+    l2tp_t2: 'yes'
 - targets: ['10.43.14.254']
   labels:
     group: 'hot-wifi'
     name: 'Lepse_T2_kir_Hot_wifi'
     region: 'KIR'
+    l2tp_t2: 'no'
 - targets: ['10.43.15.1']
   labels:
     group: 'routers'
     name: 'Upita_T2_Kir'
     region: 'KIR'
+    l2tp_t2: 'yes'
 - targets: ['10.43.15.254']
   labels:
     group: 'hot-wifi'
     name: 'Upita_T2_Kir_Hot_wifi'
     region: 'KIR'
+    l2tp_t2: 'no'
 - targets: ['10.43.16.1']
   labels:
     group: 'routers'
     name: 'Kirovo_Chepetsk_60_let'
     region: 'KIR'
+    l2tp_t2: 'yes'
 - targets: ['10.43.16.254']
   labels:
     group: 'hot-wifi'
     name: 'Kirovo_Chepetsk_60_let_Hot_wifi'
     region: 'KIR'
+    l2tp_t2: 'yes'
 - targets: ['10.43.17.1']
   labels:
     group: 'routers'
     name: 'Kirovo_Chepetsk_Mira_74'
     region: 'KIR'
+    l2tp_t2: 'yes'
 - targets: ['10.43.17.254']
   labels:
     group: 'hot-wifi'
     name: 'Kirovo_Chepetsk_Mira_74_Hot_wifi'
     region: 'KIR'
+    l2tp_t2: 'no'
 - targets: ['10.43.18.1']
   labels:
     group: 'routers'
     name: 'Vorovskogo_77_KIR'
     region: 'KIR'
+    l2tp_t2: 'yes'
 - targets: ['10.43.18.254']
   labels:
     group: 'hot-wifi'
     name: 'Vorovskogo_77_KIR_Hot_wifi'
     region: 'KIR'
+    l2tp_t2: 'no'
 - targets: ['10.43.19.1']
   labels:
     group: 'routers'
     name: 'Shorsa_95_T2_Kir'
     region: 'KIR'
+    l2tp_t2: 'yes'
 - targets: ['10.43.19.254']
   labels:
     group: 'hot-wifi'
     name: 'Shorsa_95_T2_Kir_Hot_wifi'
     region: 'KIR'
+    l2tp_t2: 'no'
 - targets: ['10.43.20.1']
   labels:
     group: 'routers'
     name: 'TC_Rossia_Kir'
     region: 'KIR'
+    l2tp_t2: 'yes'
 - targets: ['10.43.20.254']
   labels:
     group: 'hot-wifi'
     name: 'TC_Rossia_Kir_Hot_wifi'
     region: 'KIR'
+    l2tp_t2: 'no'
 - targets: ['10.43.21.1']
   labels:
     group: 'routers'
     name: 'Viat_Pol_Gagarina_11_T2'
     region: 'KIR'
+    l2tp_t2: 'yes'
 - targets: ['10.43.21.254']
   labels:
     group: 'hot-wifi'
     name: 'Viat_Pol_Gagarina_11_T2_Hot_wifi'
     region: 'KIR'
+    l2tp_t2: 'no'
+- targets: ['10.43.22.1']
+  labels:
+    group: 'routers'
+    name: 'JemMol_Xiaomi_kir'
+    region: 'KIR'
+    l2tp_t2: 'no'
 - targets: ['10.43.23.1']
   labels:
     group: 'routers'
     name: 'KRV_Luganskaia_53_T2_TC_Maxi'
     region: 'KIR'
+    l2tp_t2: 'yes'
 - targets: ['10.43.23.254']
   labels:
     group: 'hot-wifi'
     name: 'KRV_Luganskaia_53_T2_TC_Maxi_Hot_wifi'
     region: 'KIR'
+    l2tp_t2: 'no'
 - targets: ['10.43.24.1']
   labels:
     group: 'routers'
     name: 'JemMol_Xiaomi_kir_Sklad'
     region: 'KIR'
-- targets: ['10.43.24.254']
-  labels:
-    group: 'hot-wifi'
-    name: 'JemMol_Xiaomi_kir_Sklad_Hot_wifi'
-    region: 'KIR'
+    l2tp_t2: 'no'
 - targets: ['10.59.2.1']
   labels:
     group: 'routers'
     name: 'Office_Perm'
     region: 'PRM'
+    l2tp_t2: 'no'
 - targets: ['10.59.10.1']
   labels:
     group: 'routers'
     name: 'PRM_Krisanova_19_T2'
     region: 'PRM'
+    l2tp_t2: 'yes'
 - targets: ['10.59.10.254']
   labels:
     group: 'hot-wifi'
     name: 'PRM_Krisanova_19_T2_Hot_wifi'
     region: 'PRM'
+    l2tp_t2: 'no'
 - targets: ['10.59.11.1']
   labels:
     group: 'routers'
     name: 'PRM_Popova_61'
     region: 'PRM'
+    l2tp_t2: 'yes'
 - targets: ['10.59.11.254']
   labels:
     group: 'hot-wifi'
     name: 'PRM_Popova_61_Hot_wifi'
     region: 'PRM'
+    l2tp_t2: 'no'
 - targets: ['10.59.12.1']
   labels:
     group: 'routers'
     name: 'PRM_Kosmonavtov_256'
     region: 'PRM'
+    l2tp_t2: 'yes'
 - targets: ['10.59.12.254']
   labels:
     group: 'hot-wifi'
     name: 'PRM_Kosmonavtov_256_Hot_wifi'
     region: 'PRM'
+    l2tp_t2: 'no'
 - targets: ['10.59.13.1']
   labels:
     group: 'routers'
     name: 'PRM_Vetluzhskaia'
     region: 'PRM'
+    l2tp_t2: 'yes'
 - targets: ['10.59.13.254']
   labels:
     group: 'hot-wifi'
     name: 'PRM_Vetluzhskaia_Hot_wifi'
     region: 'PRM'
+    l2tp_t2: 'no'
 - targets: ['10.59.14.1']
   labels:
     group: 'routers'
     name: 'PRM_Ushakova'
     region: 'PRM'
+    l2tp_t2: 'yes'
 - targets: ['10.59.14.254']
   labels:
     group: 'hot-wifi'
     name: 'PRM_Ushakova_Hot_wifi'
     region: 'PRM'
+    l2tp_t2: 'no'
 - targets: ['10.59.15.1']
   labels:
     group: 'routers'
     name: 'PRM_PR_Parkovi'
     region: 'PRM'
+    l2tp_t2: 'yes'
 - targets: ['10.59.15.254']
   labels:
     group: 'hot-wifi'
     name: 'PRM_PR_Parkovi_Hot_wifi'
     region: 'PRM'
+    l2tp_t2: 'no'
 - targets: ['10.59.16.1']
   labels:
     group: 'routers'
     name: 'PRM_Chaikovski_Marksa_T2'
     region: 'PRM'
+    l2tp_t2: 'yes'
 - targets: ['10.59.16.254']
   labels:
     group: 'hot-wifi'
     name: 'PRM_Chaikovski_Marksa_T2_Hot_wifi'
     region: 'PRM'
+    l2tp_t2: 'no'
 - targets: ['10.59.17.1']
   labels:
     group: 'routers'
     name: 'PRM_Berez_Piatiletki_87'
     region: 'PRM'
+    l2tp_t2: 'yes'
 - targets: ['10.59.17.254']
   labels:
     group: 'hot-wifi'
     name: 'PRM_Berez_Piatiletki_87_Hot_wifi'
     region: 'PRM'
+    l2tp_t2: 'no'
 - targets: ['10.59.18.1']
   labels:
     group: 'routers'
     name: 'PRM_Berez_Piatiletki_41_TC_CUM'
     region: 'PRM'
+    l2tp_t2: 'yes'
 - targets: ['10.59.18.254']
   labels:
     group: 'hot-wifi'
     name: 'PRM_Berez_Piatiletki_41_TC_CUM_Hot_wifi'
     region: 'PRM'
+    l2tp_t2: 'no'
 - targets: ['10.59.19.1']
   labels:
     group: 'routers'
     name: 'PRM_Berezn_Ubileinaia_28'
     region: 'PRM'
+    l2tp_t2: 'yes'
 - targets: ['10.59.19.254']
   labels:
     group: 'hot-wifi'
     name: 'PRM_Berezn_Ubileinaia_28_Hot_wifi'
     region: 'PRM'
+    l2tp_t2: 'no'
 - targets: ['10.59.20.1']
   labels:
     group: 'routers'
     name: 'PRM_Berezn_Mira_82_Semia'
     region: 'PRM'
+    l2tp_t2: 'yes'
 - targets: ['10.59.20.254']
   labels:
     group: 'hot-wifi'
     name: 'PRM_Berezn_Mira_82_Semia_Hot_wifi'
     region: 'PRM'
+    l2tp_t2: 'no'
 - targets: ['10.59.21.1']
   labels:
     group: 'routers'
     name: 'PRM_Solik_Sevrnaia_48_TC_Bismark_Avenu'
     region: 'PRM'
+    l2tp_t2: 'yes'
 - targets: ['10.59.21.254']
   labels:
     group: 'hot-wifi'
     name: 'PRM_Solik_Sevrnaia_48_TC_Bismark_Avenu_Hot_wifi'
     region: 'PRM'
+    l2tp_t2: 'no'
 - targets: ['10.59.22.1']
   labels:
     group: 'routers'
     name: 'PRM_Solik_Lenina_36b_TC_Bismark_Plaza'
     region: 'PRM'
+    l2tp_t2: 'yes'
 - targets: ['10.59.22.254']
   labels:
     group: 'hot-wifi'
     name: 'PRM_Solik_Lenina_36b_TC_Bismark_Plaza_Hot_wifi'
     region: 'PRM'
+    l2tp_t2: 'no'
 - targets: ['10.59.23.1']
   labels:
     group: 'routers'
     name: 'PRM_Solik_Pobedy_117_TC_CUM'
     region: 'PRM'
+    l2tp_t2: 'yes'
 - targets: ['10.59.23.254']
   labels:
     group: 'hot-wifi'
     name: 'PRM_Solik_Pobedy_117_TC_CUM_Hot_wifi'
     region: 'PRM'
+    l2tp_t2: 'no'
 - targets: ['10.59.25.1']
   labels:
     group: 'routers'
     name: 'PRM_Chaikovski_Marksa_XIAOMI'
     region: 'PRM'
+    l2tp_t2: 'no'
 - targets: ['185.204.3.166']
   labels:
     group: 'server'
     name: 'Server_VPN'
     region: 'PRM'
+    l2tp_t2: 'no'
