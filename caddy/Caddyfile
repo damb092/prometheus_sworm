@@ -38,15 +38,6 @@
     tls off
 }
 
-:9116 {
-    basicauth / {$ADMIN_USER} {$ADMIN_PASSWORD}
-    proxy / snmp-exporter:9116 {
-            transparent
-        }
-
-    errors stderr
-    tls off
-}
 :9115 {
     basicauth / {$ADMIN_USER} {$ADMIN_PASSWORD}
     proxy / blackbox:9115 {

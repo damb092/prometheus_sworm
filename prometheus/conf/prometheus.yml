@@ -66,6 +66,12 @@ scrape_configs:
     static_configs:
     - targets: ['mon_blackbox:9115']
 
+  - job_name: esl
+    file_sd_configs:
+    - files:
+      - ./sd_files/*_ESL_exporter.yml
+      refresh_interval: 1m
+
   - job_name: 'blackbox-icmp'
     metrics_path: /probe
     params:
@@ -98,6 +104,10 @@ scrape_configs:
         target_label: instance
       - target_label: __address__
         replacement: mon_blackbox:9115
+
+  - job_name: 'node-exporter-bitrix'
+    static_configs:
+      - targets: [188.124.39.176:9100]
   
   - job_name: snmp
     static_configs:

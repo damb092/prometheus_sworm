@@ -60,15 +60,18 @@ services:
       mode: global
       resources:
         limits:
-          memory: 128M
+          memory: 256M
+          cpus: '.5'
         reservations:
-          memory: 64M
+          memory: 128M
+          cpus: '0.1'
 
   grafana:
     image: damb092/grafana:test
     networks:
       - net
     environment:
+      - GF_FEATURE_TOGGLES_ENABLE=ngalert
       - GF_SECURITY_ADMIN_USER=${ADMIN_USER:-admin}
       - GF_SECURITY_ADMIN_PASSWORD=${ADMIN_PASSWORD:-admin}
       - GF_USERS_ALLOW_SIGN_UP=false
@@ -89,7 +92,7 @@ services:
           - node.role == manager
       resources:
         limits:
-          memory: 128M
+          memory: 256M
         reservations:
           memory: 64M
 
@@ -129,7 +132,7 @@ services:
 #      replicas: 1
 
   node-exporter:
-    image: stefanprodan/swarmprom-node-exporter:v0.16.0
+    image: damb092/node-exporter:test
     networks:
       - net
     environment:
@@ -187,20 +190,20 @@ services:
         reservations:
           memory: 128M
 
-  mikrotik-exporter:
-    image: nshttpd/mikrotik-exporter:1.0.11 # replace version for latest version
-    volumes:
-      - './config/mikrotik:/config'
-    environment:
-      - CONFIG_FILE=/config/config.yml
-    networks:
-      - net
-    deploy:
-      mode: replicated
-      replicas: 1
-      placement:
-        constraints:
-          - node.role == manager
+#  mikrotik-exporter:
+#    image: nshttpd/mikrotik-exporter:1.0.11 # replace version for latest version
+#    volumes:
+#      - './config/mikrotik:/config'
+#    environment:
+#      - CONFIG_FILE=/config/config.yml
+#    networks:
+#      - net
+#    deploy:
+#      mode: replicated
+#      replicas: 1
+#      placement:
+#        constraints:
+#          - node.role == manager
 
   blackbox:
     image: prom/blackbox-exporter
@@ -214,6 +217,13 @@ services:
       placement:
         constraints:
           - node.role == manager
+      resources:
+        limits:
+          memory: 2048M
+          cpus: '.8'
+        reservations:
+          memory: 128M
+          cpus: '0.1'
 
   snmp-exporter:
     image: prom/snmp-exporter
@@ -225,6 +235,13 @@ services:
       placement:
         constraints:
           - node.role == manager
+      resources:
+        limits:
+          memory: 2048M
+          cpus: '.5'
+        reservations:
+          memory: 128M
+          cpus: '0.1'
 
   caddy:
     image: stefanprodan/caddy
@@ -233,9 +250,8 @@ services:
       - "9090:9090"
 #      - "9093:9093"
       - "9094:9094"
-      - "9436:9436"
+#      - "9436:9436"
       - "9115:9115"
-      - "9116:9116"
     networks:
       - net
     environment:

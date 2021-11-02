@@ -1,0 +1,25 @@
+- targets:
+  - '147.78.64.211:9116'
+  labels:
+    TT : 'jemmoll'
+- targets:
+  - '185.139.69.26:9116'
+  labels:
+    TT : 'kazanmoll'
+- targets:
+  - '185.195.26.195:9116'
+  labels:
+    TT : 'kvartal'
+- targets:
+  - '185.195.26.211:9116'
+  labels:
+    TT : 'lugansk'
+- targets:
+  - '185.255.132.128:9116'
+  labels:
+    TT : 'planeta'
+- targets:
+  - '185.195.24.121:9116'
+  labels:
+    TT : 'solik_tsum'
+
