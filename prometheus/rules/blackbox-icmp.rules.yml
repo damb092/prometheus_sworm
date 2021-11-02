@@ -9,7 +9,7 @@ groups:
       annotations:
         description: "Host {{ $labels.instance }} is not available via icmp-protocol for more than 3 minutes."
         summary: "Host {{ $labels.instance }} is down"
- 
+
     - alert: host_response_time_is_high_via_icmp_Schetchiki
       expr: sum by (instance) (probe_icmp_duration_seconds{group="Schetchiki"}) > 1
       for: 1m
@@ -27,7 +27,7 @@ groups:
       annotations:
         description: "Host {{ $labels.instance }} is not available via icmp-protocol for more than 3 minutes."
         summary: "Host {{ $labels.instance }} is down"
- 
+
     - alert: host_response_time_is_high_via_icmp_hot_wifi
       expr: sum by (instance) (probe_icmp_duration_seconds{group="hot-wifi"}) > 1
       for: 1m
@@ -38,16 +38,16 @@ groups:
         summary: "Host {{ $labels.instance }} response time is {{ humanize $value}}s"
 
     - alert: host_is_not_available_via_icmp_osn_kam
-      expr: probe_success{job="blackbox-icmp",group="osn_kam"} == 0  
+      expr: probe_success{job="blackbox-icmp",group="osn_kam"} == 0
       for: 3m
       labels:
         severity: critical
       annotations:
         description: "Host {{ $labels.instance }} is not available via icmp-protocol for more than 3 minutes."
         summary: "Host {{ $labels.instance }} is down"
- 
+
     - alert: host_response_time_is_high_via_icmp_osn_kam
-      expr: sum by (instance) (probe_icmp_duration_seconds{group="osn_kam"}) > 1  
+      expr: sum by (instance) (probe_icmp_duration_seconds{group="osn_kam"}) > 1
       for: 1m
       labels:
         severity: warning
@@ -55,17 +55,17 @@ groups:
         description: "Host {{ $labels.instance }} response time via icmp-protocol is very high(>1s) for more than 1 minutes."
         summary: "Host {{ $labels.instance }} response time is {{ humanize $value}}s"
 
-    - alert: host_is_not_available_via_icmp_t2_kam 
-      expr: probe_success{job="blackbox-icmp",group="t2_kam"} == 0 
+    - alert: host_is_not_available_via_icmp_t2_kam
+      expr: probe_success{job="blackbox-icmp",group="t2_kam"} == 0
       for: 3m
       labels:
         severity: critical
       annotations:
         description: "Host {{ $labels.instance }} is not available via icmp-protocol for more than 3 minutes."
         summary: "Host {{ $labels.instance }} is down"
- 
-    - alert: host_response_time_is_high_via_icmp_t2_kam   
-      expr: sum by (instance) (probe_icmp_duration_seconds{group="t2_kam"}) > 1 
+
+    - alert: host_response_time_is_high_via_icmp_t2_kam
+      expr: sum by (instance) (probe_icmp_duration_seconds{group="t2_kam"}) > 1
       for: 1m
       labels:
         severity: warning
@@ -91,15 +91,38 @@ groups:
         description: "Host {{ $labels.instance }} response time via icmp-protocol is very high(>1s) for more than 1 minutes."
         summary: "Host {{ $labels.instance }} response time is {{ humanize $value}}s"
 
-    - alert: host_is_not_available_via_icmp_podsob_kam 
-      expr: probe_success{job="blackbox-icmp",group="podsob_kam"} == 0 
+<<<<<<< HEAD
+    - alert: host_is_not_available_via_icmp_kas_kam
+      expr: probe_success{job="blackbox-icmp",group="kas_kam"} == 0
       for: 3m
       labels:
         severity: critical
       annotations:
         description: "Host {{ $labels.instance }} is not available via icmp-protocol for more than 3 minutes."
         summary: "Host {{ $labels.instance }} is down"
- 
+
+    - alert: host_response_time_is_high_via_icmp_kas_kam
+      expr: sum by (instance) (probe_icmp_duration_seconds{group="kas_kam"}) > 1
+      for: 1m
+      labels:
+        severity: warning
+      annotations:
+        description: "Host {{ $labels.instance }} response time via icmp-protocol is very high(>1s) for more than 1 minutes."
+        summary: "Host {{ $labels.instance }} response time is {{ humanize $value}}s"
+
+    - alert: host_is_not_available_via_icmp_podsob_kam 
+      expr: probe_success{job="blackbox-icmp",group="podsob_kam"} == 0 
+=======
+    - alert: host_is_not_available_via_icmp_podsob_kam
+      expr: probe_success{job="blackbox-icmp",group="podsob_kam"} == 0
+>>>>>>> 6a6796913e83fbbd10425154c623fdfd98e04f32
+      for: 3m
+      labels:
+        severity: critical
+      annotations:
+        description: "Host {{ $labels.instance }} is not available via icmp-protocol for more than 3 minutes."
+        summary: "Host {{ $labels.instance }} is down"
+
     - alert: host_response_time_is_high_via_icmp_podsob_kam
       expr: sum by (instance) (probe_icmp_duration_seconds{group="podsob_kam"}) > 1
       for: 1m
@@ -117,7 +140,7 @@ groups:
       annotations:
         description: "Host {{ $labels.instance }} is not available via icmp-protocol for more than 3 minutes."
         summary: "Host {{ $labels.instance }} is down"
- 
+
     - alert: host_response_time_is_high_via_icmp_routers
       expr: sum by (instance) (probe_icmp_duration_seconds{group="routers"}) > 1
       for: 1m
